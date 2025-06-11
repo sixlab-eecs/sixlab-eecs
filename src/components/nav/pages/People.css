@@ -16,15 +16,22 @@ body {
     margin-bottom: 1rem;
 }
 
-a {
+.faculty-link {
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.student-link {
     color: #00bcd4;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
 
-/* 卡片风格扁平化且更柔和 */
 .person-card {
     border-radius: 5rem;
     border:1px solid #e5e7eb;
@@ -32,6 +39,7 @@ a:hover {
     background-color: #fafafa;
     transition: background-color 0.2s ease;
 }
+
 .person-card:hover {
     background-color: #f0f4f8;
     transition: color 0.3s ease;

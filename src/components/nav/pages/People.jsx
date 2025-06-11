@@ -6,6 +6,9 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 // import images from assets
 import JunyiImg from "../../../assets/Junyi.png";
 import defaultImg from "../../../assets/NA.svg";
+import AlanImg from "../../../assets/Alan.JPG";
+import QianhuiImg from "../../../assets/Qianhui2.jpg";
+import LingxiaoImg from "../../../assets/Lingxiao.jpg";
 import "./People.css";
 
 const faculty = {
@@ -42,12 +45,12 @@ const masterStudents = [
 const undergrads = [
     {
         name: "Qianhui Zheng",
-        img: defaultImg,
+        img: QianhuiImg,
         major: "Undergraduate Student (CS)",
     },
     {
         name: "Lingxiao Yang",
-        img: defaultImg,
+        img: LingxiaoImg,
         major: "Undergraduate Student (CE)",
     },
     {
@@ -56,14 +59,17 @@ const undergrads = [
         major: "Undergraduate Student (CE)",
     },
     {
-        name: "Alan Murillo-soto",
-        img: defaultImg,
-        major: "Visiting Student",
-    },
-    {
         name: "Felix Lu",
         img: defaultImg,
         major: "Undergraduate Student",
+    },
+];
+
+const visitings = [
+    {
+        name: "Alan Murillo-soto",
+        img: AlanImg,
+        major: "Visiting Student (EE)",
     },
 ];
 
@@ -91,7 +97,7 @@ function PersonCard({ person }) {
                             href={person.website}
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{ color: "#00bcd4" }}
+                            className="student-link"
                         >
                             {person.name}
                         </a>
@@ -117,7 +123,7 @@ export default function People() {
             <h2 className="mb-2 custom-heading">Principal Investigator</h2>
             <Card className="mb-1 px-2 py-3 border-0 flex-row align-items-center faculty-card">
                 <Row className="g-3 w-100">
-                    <Col xs={12} md={3}>
+                    <Col xs={6} md={3}>
                     <Card.Img
                         src={faculty.img}
                         alt={faculty.name}
@@ -129,33 +135,29 @@ export default function People() {
                         }}
                     />
                     </Col>
-                    <Col xs={12} md={9}>
+                    <Col xs={6} md={9}>
                         <Card.Body>
                             <Card.Title as="h5">
                             <a
                                 href={faculty.website}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{
-                                fontSize: "1rem",
-                                fontWeight: "600",
-                                color: "#00bcd4",
-                                }}
+                                className="faculty-link"
                             >
                                 {faculty.name}
                             </a>
                             </Card.Title>
                             <Card.Text
-                            style={{
-                                marginTop: "0.5rem",
-                                fontSize: "0.75rem",
-                                color: "#444",
-                                lineHeight: "1.5",
-                            }}
+                                style={{
+                                    marginTop: "0.5rem",
+                                    fontSize: "0.75rem",
+                                    color: "#444",
+                                    lineHeight: "1.5",
+                                }}
                             >
-                            {faculty.bio}
-                            {/* Social Media */}
-                            <div className="social-icons mt-3">
+                                {faculty.bio}
+                                {/* Social Media */}
+                            <div className="social-icons mt-2">
                                 <a href="https://scholar.google.com/citations?user=n5INNYUAAAAJ&hl=en&oi=ao" className="social-icon" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faGraduationCap} className="me-3" style={{ fontSize: "20px" }} />
                                 </a>
@@ -185,6 +187,9 @@ export default function People() {
                 <PersonCard key={idx} person={student} />
                 ))}
                 {undergrads.map((student, idx) => (
+                <PersonCard key={idx} person={student} />
+                ))}
+                {visitings.map((student, idx) => (
                 <PersonCard key={idx} person={student} />
                 ))}
             </Row>

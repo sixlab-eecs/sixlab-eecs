@@ -1,0 +1,54 @@
+.publication-card {
+    border-radius: 1rem;
+    box-shadow: none;
+    background-color: #ffffff;
+    transition: transform 0.2s ease;
+}
+
+.publication-card:hover {
+    background-color: #f0f4f8;
+    transition: color 0.3s ease;
+}
+
+.custom-heading {
+    color: #222;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-left: 4px solid #00bcd4;
+    padding-left: 0.6rem;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.pub-title a {
+    color: #00bcd4;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.pub-title {
+    color: #00bcd4;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.pub-title a:hover {
+    text-decoration: underline;
+}
+
+.pub-authors {
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+.pub-venue {
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+.pub-links .btn {
+    font-size: 0.55rem;
+    border-radius: 0.2rem;
+}

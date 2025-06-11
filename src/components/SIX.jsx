@@ -8,7 +8,7 @@ export default function SIX() {
             <SIXNavbar />
             <Container fluid className="mt-4">
                 <Outlet />
-                <footer className="text-center text-muted mt-4 mb-3" style={ {fontSize: "0.5rem"} }>
+                <footer className="text-center text-muted mt-4 mb-3" style={ {fontSize: "0.55rem"} }>
                     © Sensing, Intelligence and eXperience (SIX) Lab 2025
                 </footer>
             </Container>
