@@ -20,10 +20,9 @@ export default function SIXNavbar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
-                        <Nav.Link as={NavLink} to="/people">People</Nav.Link>
-                        <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
-                        <Nav.Link as={NavLink} to="/publications">Publications</Nav.Link>
-                        <Nav.Link as={NavLink} to="/join">Join Us</Nav.Link>
+                        <Nav.Link as={NavLink} to="/people">Team</Nav.Link>
+                        <Nav.Link as={NavLink} to="/publications">Publication</Nav.Link>
+                        <Nav.Link as={NavLink} to="/join">Get Involved</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

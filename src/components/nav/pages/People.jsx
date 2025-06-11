@@ -1,8 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faGoogleScholar, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+// import images from assets
 import JunyiImg from "../../../assets/Junyi.png";
 import defaultImg from "../../../assets/NA.svg";
-import "./People.css"; // 引入样式文件
+import "./People.css";
 
 const faculty = {
     name: "Junyi Zhu",
@@ -108,42 +112,71 @@ function PersonCard({ person }) {
 
 export default function People() {
     return (
-        <Container className="mt-5">
+        <Container className="mt-4">
             {/* Faculty Section */}
             <h2 className="mb-2 custom-heading">Principal Investigator</h2>
-            <Row className="align-items-center mb-5">
-                <Col xs={12} md={3}>
-                    <img
-                    src={faculty.img}
-                    alt={faculty.name}
-                    style={{
-                        width: "100%",
-                        borderRadius: "0.8rem",
-                        border: "1px solid #eee",
-                    }}
-                    />
-                </Col>
-                <Col xs={12} md={9}>
-                    <a
-                        href={faculty.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
+            <Card className="mb-1 px-2 py-3 border-0 flex-row align-items-center faculty-card">
+                <Row className="g-3 w-100">
+                    <Col xs={12} md={3}>
+                    <Card.Img
+                        src={faculty.img}
+                        alt={faculty.name}
+                        className="img-fluid rounded"
                         style={{
-                            fontSize: "1rem",
-                            fontWeight: "600",
-                            color: "#00bcd4",
+                        borderRadius: "0.75rem",
+                        objectFit: "cover",
+                        width: "100%",
                         }}
-                    >
-                        {faculty.name}
-                    </a>
-                    <p style={{ marginTop: "0.75rem", fontSize: "0.8rem", color: "#444" }}>
-                        {faculty.bio}
-                    </p>
-                </Col>
-            </Row>
+                    />
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Card.Body>
+                            <Card.Title as="h5">
+                            <a
+                                href={faculty.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                fontSize: "1rem",
+                                fontWeight: "600",
+                                color: "#00bcd4",
+                                }}
+                            >
+                                {faculty.name}
+                            </a>
+                            </Card.Title>
+                            <Card.Text
+                            style={{
+                                marginTop: "0.5rem",
+                                fontSize: "0.75rem",
+                                color: "#444",
+                                lineHeight: "1.5",
+                            }}
+                            >
+                            {faculty.bio}
+                            {/* Social Media */}
+                            <div className="social-icons mt-3">
+                                <a href="https://scholar.google.com/citations?user=n5INNYUAAAAJ&hl=en&oi=ao" className="social-icon" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faGraduationCap} className="me-3" style={{ fontSize: "20px" }} />
+                                </a>
+                                <a href="https://www.linkedin.com/company/wix-com?trk=biz-companies-cym" className="social-icon" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} className="me-3" size="2x" style={{ fontSize: "20px" }} />
+                                </a>
+                                <a href="hhttps://x.com/wix" className="social-icon" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faTwitter} className="me-3" size="2x" style={{ fontSize: "20px" }} />
+                                </a>
+                                <a href="https://www.facebook.com/wix" className="social-icon" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faFacebook} className="me-3" size="2x" style={{ fontSize: "20px"}}/>
+                                </a>
+                            </div>
+                            </Card.Text>
+                        </Card.Body>
+                    </Col>
+                </Row>
+            </Card>
 
             {/* Students */}
-            <h3 className="mt-5 mb-3 custom-heading">Members</h3>
+            <h3 className="mt-3 mb-2 custom-heading">Members</h3>
             <Row>
                 {phdStudents.map((student, idx) => (
                 <PersonCard key={idx} person={student} />

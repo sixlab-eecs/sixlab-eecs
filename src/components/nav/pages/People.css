@@ -4,10 +4,9 @@ body {
     color: #222;
     font-size: 14px; 
     line-height: 1.5;
-  }
-  
-  
-  .custom-heading {
+}
+
+.custom-heading {
     color: #222;
     font-weight: 600;
     font-size: 1.2rem;
@@ -15,42 +14,58 @@ body {
     padding-left: 0.6rem;
     margin-top: 1rem; 
     margin-bottom: 1rem;
-  }
-  
-  a {
+}
+
+a {
     color: #00bcd4;
     text-decoration: none;
-  }
-  a:hover {
+}
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* 卡片风格扁平化且更柔和 */
-  .person-card {
+}
+
+/* 卡片风格扁平化且更柔和 */
+.person-card {
     border-radius: 5rem;
     border:1px solid #e5e7eb;
     box-shadow: none;
     background-color: #fafafa;
     transition: background-color 0.2s ease;
-  }
-  .person-card:hover {
+}
+.person-card:hover {
     background-color: #f0f4f8;
-  }
-  
-  .person-card .card-img-top {
+    transition: color 0.3s ease;
+}
+
+.person-card .card-img-top {
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
     height: 160px;
     object-fit: cover;
-  }
-  
-  .card-title {
+}
+
+.faculty-card {
+    border-radius: 1rem;
+    background-color: #fafafa;
+    box-shadow: none;
+}
+
+.card-title {
     font-weight: 500;
     font-size: 0.8rem;
     color: #111;
-  }
-  .card-text {
+}
+
+.card-text {
     font-size: 0.65rem;
     color: #666;
-  }
-  
+}
+
+.social-icon {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+color: #00bcd4; 
+}
