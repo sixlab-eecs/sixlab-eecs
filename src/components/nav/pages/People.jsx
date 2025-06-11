@@ -176,7 +176,7 @@ export default function People() {
             </Card>
 
             {/* Students */}
-            <h3 className="mt-3 mb-2 custom-heading">Members</h3>
+            <h3 className="mt-1 mb-2 custom-heading">Members</h3>
             <Row>
                 {phdStudents.map((student, idx) => (
                 <PersonCard key={idx} person={student} />

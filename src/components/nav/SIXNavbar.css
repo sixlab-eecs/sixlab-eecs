@@ -1,0 +1,30 @@
+.navbar-title {
+    font-weight: 600;
+    color: #00bcd4;
+    font-size: 1.25rem;
+}
+
+.six-navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); /* 深蓝渐变 */
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link-custom {
+    color: #333 !important;
+    font-weight: 450 !important;
+    padding: 0.5rem 1rem !important;
+    transition: color 0.3s ease !important;
+    font-size: 0.85rem !important;
+    font-family: 'Inter', 'Helvetica Neue', sans-serif !important;
+}
+
+.nav-link-custom:hover {
+    color: #00bcd4 !important;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #eee;
+}
