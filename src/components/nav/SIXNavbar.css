@@ -11,7 +11,7 @@
 }
 
 .nav-link-custom {
-    color: #333 !important;
+    color: #e0f7fa !important;
     font-weight: 450 !important;
     padding: 0.5rem 1rem !important;
     transition: color 0.3s ease !important;
@@ -20,7 +20,7 @@
 }
 
 .nav-link-custom:hover {
-    color: #00bcd4 !important;
+    color: #80deea !important;
     text-decoration: none;
 }
 

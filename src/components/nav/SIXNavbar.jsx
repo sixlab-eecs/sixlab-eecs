@@ -5,7 +5,7 @@ import "./SIXNavbar.css";
 
 export default function SIXNavbar() {
     return (
-        <Navbar bg="light" variant="light" sticky="top" expand="sm" collapseOnSelect>
+        <Navbar bg="light" variant="light" sticky="top" expand="sm" collapseOnSelect className="six-navbar">
             <Container>
                 <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center">
                     <img
