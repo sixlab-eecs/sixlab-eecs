@@ -23,7 +23,7 @@ export default function SIXNavbar() {
                         <Nav.Link as={NavLink} to="/" end className="nav-link-custom">Home</Nav.Link>
                         <Nav.Link as={NavLink} to="/people" className="nav-link-custom">Team</Nav.Link>
                         <Nav.Link as={NavLink} to="/publications" className="nav-link-custom">Publications</Nav.Link>
-                        <Nav.Link as={NavLink} to="/join" className="nav-link-custom">Get Involved</Nav.Link>
+                        <Nav.Link as={NavLink} to="/join" className="nav-link-custom">Join Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
