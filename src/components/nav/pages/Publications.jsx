@@ -181,6 +181,7 @@ const publications = [
         PDF: "https://www.junyizhu.com/_files/ugd/1ca822_329abad0d6c642fb8c785b08cbf5fedd.pdf",
         Video: "https://www.youtube.com/watch?v=Xd6hSQYHVCc",
         },
+        highlight: "Best Paper Nominee",
     },
     {
         title: "Noninvasive hemoglobin measurement using unmodified smartphone camera and white flash",
@@ -232,6 +233,11 @@ export default function Publications() {
                     >
                         {pub.title}
                     </a>
+                    {pub.highlight && (
+                        <span className="custom-badge ms-2">
+                        {pub.highlight}
+                        </span>
+                    )}
                 </h5>
                 <p className="pub-authors mb-1 text-muted">{pub.authors}</p>
                 <p className="pub-venue mb-2" style={{ fontStyle: "italic" }}>{pub.venue}</p>

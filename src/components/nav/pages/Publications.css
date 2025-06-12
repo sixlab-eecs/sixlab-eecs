@@ -52,3 +52,13 @@
     font-size: 0.55rem;
     border-radius: 0.2rem;
 }
+
+.custom-badge {
+    background: linear-gradient(90deg, #00bcd4, #2196f3); 
+    color: white;
+    padding: 0.3em 1em;
+    font-size: 0.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+    text-transform: uppercase;
+}

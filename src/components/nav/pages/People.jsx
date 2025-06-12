@@ -8,7 +8,9 @@ import JunyiImg from "../../../assets/Junyi.png";
 import defaultImg from "../../../assets/NA.svg";
 import AlanImg from "../../../assets/Alan.JPG";
 import QianhuiImg from "../../../assets/Qianhui2.jpg";
-import LingxiaoImg from "../../../assets/Lingxiao.jpg";
+import LingxiaoImg from "../../../assets/Lingxiao_sq.jpg";
+import FelixImg from "../../../assets/Felix.jpg";
+import WilliamImg from "../../../assets/William.jpg";
 import "./People.css";
 
 const faculty = {
@@ -54,14 +56,14 @@ const undergrads = [
         major: "Undergraduate Student (CE)",
     },
     {
-        name: "William Shen",
-        img: defaultImg,
+        name: "Yizhe (William) Shen",
+        img: WilliamImg,
         major: "Undergraduate Student (CE)",
     },
     {
         name: "Felix Lu",
-        img: defaultImg,
-        major: "Undergraduate Student",
+        img: FelixImg,
+        major: "Undergraduate Student (CE)",
     },
 ];
 
