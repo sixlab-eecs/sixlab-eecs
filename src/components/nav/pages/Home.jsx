@@ -1,9 +1,15 @@
-// import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import visionImg from "../../../assets/vision.png";
 
-export default function JoinUs(props) {
-    return <div>
-        <h1>About SIX Lab</h1>
-    </div>
+export default function Home(props) {
+    return <Container>
+        <h2 className="custom-heading mb-4">Research</h2>
+        <h2 className="custom-heading mb-4">News</h2>
+        <ul>
+            <li>[09/2025] The Sensing Intelligence and eXperience Lab at UMich is established!</li>
+            <li>[09/2025] The Sensing Intelligence and eXperience Lab at UMich is established!</li>
+        </ul>
+    </Container>
 }
 
 // export default function Home() {

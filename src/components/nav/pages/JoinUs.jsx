@@ -31,7 +31,7 @@ export default function JoinUs(props) {
                     <Col md={6} className="d-flex flex-column justify-content-center p-4">
                         <p className="mb-3">
                             The Sensing, Intelligence and eXperience (SIX) Lab operates under the Department of {" "}
-                            <a href="https://eecs.engin.umich.edu">
+                            <a href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer">
                             Electrical Engineering and Computer Science
                             </a>{" "}
                             at the University of Michigan.

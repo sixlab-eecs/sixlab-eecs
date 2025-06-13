@@ -8,6 +8,13 @@ export default function SIXNavbar() {
         <Navbar bg="light" variant="light" sticky="top" expand="sm" collapseOnSelect className="six-navbar">
             <Container>
                 <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center">
+                    <img 
+                        src="/umich.jpeg" 
+                        alt="University of Michigan Logo" 
+                        className="d-inline-block align-top me-2"
+                        width="30"
+                        height="30"
+                    />
                     <img
                         alt="SIX Logo"
                         src={crest}

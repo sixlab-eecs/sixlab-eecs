@@ -11,6 +11,7 @@ import QianhuiImg from "../../../assets/Qianhui2.jpg";
 import LingxiaoImg from "../../../assets/Lingxiao_sq.jpg";
 import FelixImg from "../../../assets/Felix.jpg";
 import WilliamImg from "../../../assets/William.jpg";
+import ShufengImg from "../../../assets/Shufeng.jpg";
 import "./People.css";
 
 const faculty = {
@@ -34,7 +35,7 @@ const phdStudents = [
 const masterStudents = [
     {
         name: "Shufeng Yin",
-        img: defaultImg,
+        img: ShufengImg,
         major: "Master Student (ECE)",
     },
     {
@@ -125,7 +126,7 @@ export default function People() {
             <h2 className="mb-2 custom-heading">Principal Investigator</h2>
             <Card className="mb-1 px-2 py-3 border-0 flex-row align-items-center faculty-card">
                 <Row className="g-3 w-100">
-                    <Col xs={6} md={3}>
+                    <Col xs={12} sm={6} md={3}>
                     <Card.Img
                         src={faculty.img}
                         alt={faculty.name}
@@ -137,7 +138,7 @@ export default function People() {
                         }}
                     />
                     </Col>
-                    <Col xs={6} md={9}>
+                    <Col xs={12} sm={6} md={9}>
                         <Card.Body>
                             <Card.Title as="h5">
                             <a

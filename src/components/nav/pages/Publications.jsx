@@ -216,12 +216,14 @@ export default function Publications() {
                     height: "120px",      
                     overflow: "hidden",
                 }}>
-            <img
-                src={pub.thumbnail}
-                alt={pub.title}
-                className="img-fluid h-100 w-100 object-fit-cover rounded"
-                style={{ border: "1px solid #ccc" }}
-            />
+            <a href={pub.links.PDF} target="_blank" rel="noopener noreferrer">
+                <img
+                    src={pub.thumbnail}
+                    alt={pub.title}
+                    className="img-fluid h-100 w-100 object-fit-cover rounded"
+                    style={{ border: "1px solid #ccc" }}
+                />
+            </a>
             </div>
             <div className="ms-4 d-flex flex-column justify-content-between" style={{ flex: 1 }}>
             <div>
