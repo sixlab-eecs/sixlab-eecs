@@ -1,0 +1,40 @@
+.custom-ul {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #222;
+}
+
+.custom-ul a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.custom-ul a:hover {
+    text-decoration: underline;
+}
+
+.small-card {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa; /* 可替换为你网站主色调 */
+    transition: transform 0.2s ease;
+}
+
+.small-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+a.stretched-link {
+    color: #00bcd4 !important;
+    text-decoration: none;
+}
+
+a.stretched-link:hover {
+    text-decoration: underline !important;
+}
+
+.custom-card {
+    border-radius: 1rem;
+    background-color: #afafaf;
+}
