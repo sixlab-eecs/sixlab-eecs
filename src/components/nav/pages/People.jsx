@@ -12,6 +12,7 @@ import LingxiaoImg from "../../../assets/Lingxiao_sq.jpg";
 import FelixImg from "../../../assets/Felix.jpg";
 import WilliamImg from "../../../assets/William.jpg";
 import ShufengImg from "../../../assets/Shufeng.jpg";
+import ZhiyuImg from "../../../assets/Zhiyu.jpg";
 import "./People.css";
 
 const faculty = {
@@ -40,7 +41,7 @@ const masterStudents = [
     },
     {
         name: "Zhiyu Jia",
-        img: defaultImg,
+        img: ZhiyuImg,
         major: "Master Student (ECE)",
     },
 ];
@@ -183,9 +184,9 @@ export default function People() {
             {/* Students */}
             <h3 className="mt-1 mb-2 custom-heading">Members</h3>
             <Row>
-                {phdStudents.map((student, idx) => (
+                {/*{phdStudents.map((student, idx) => (
                 <PersonCard key={idx} person={student} />
-                ))}
+                ))}*/}
                 {masterStudents.map((student, idx) => (
                 <PersonCard key={idx} person={student} />
                 ))}

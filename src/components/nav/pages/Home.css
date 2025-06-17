@@ -1,3 +1,21 @@
+.home-heading {
+    color: #222;
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 1rem;
+    border-left: 4px solid #00bcd4;
+    padding-left: 0.6rem;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.home-carousel img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 7; 
+    object-fit: cover;
+}
+
 .custom-ul {
     font-size: 0.75rem;
     line-height: 1.5;
