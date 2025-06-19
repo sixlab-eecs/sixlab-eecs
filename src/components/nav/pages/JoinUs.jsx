@@ -52,7 +52,7 @@ export default function JoinUs(props) {
                         </p>
                         <p className="mb-0">
                             <strong>Email:</strong><br/>
-                            <a href="mailto:junyi@umich.edu">junyi@umich.edu</a>
+                            <a href="mailto:zhujunyi@umich.edu">zhujunyi@umich.edu</a>
                         </p>
                     </Col>
                 </Row>
@@ -72,7 +72,7 @@ export default function JoinUs(props) {
             <h2 className="custom-heading mb-4">How to join</h2>
             <p className="mb-4">
                 We welcome inquiries from prospective undergraduate researchers, PhD students, and postdoctoral fellows. If you're interested in joining the lab, please feel free to{" "}
-                <strong><a href="mailto:junyi@umich.edu">contact us by email</a></strong>. We'd love to hear from you!
+                <strong><a href="mailto:zhujunyi@umich.edu">contact us by email</a></strong>. We'd love to hear from you!
             </p>
         </Container>
     );

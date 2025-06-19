@@ -2,16 +2,16 @@ import { Container, Row, Col, Card, Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import visionImg from "../../../assets/vision2.png";
 import { Users, BookOpen } from "lucide-react";
-import img1 from "../../../assets/pub12.png"
-import img2 from "../../../assets/pub6.png"
-import img3 from "../../../assets/pub8.png"
+import pub3 from "../../../assets/pub3.png"
+import pub12 from "../../../assets/pub12.jpg"
+import pub8 from "../../../assets/pub8_home.png"
 import img4 from "../../../assets/pub10.png"
 import "./Home.css"
 
 const carouselImages = [
-    { src: img2, alt: 'Lab Group' },
-    { src: img1, alt: 'Project demo' },
-    { src: img3, alt: 'Lab Meeting' },
+    { src: pub8, alt: 'Project demo' },
+    { src: pub12, alt: 'Project demo' },
+    { src: pub3, alt: 'Project demo' },
 ];  
 
 const news = [
@@ -21,12 +21,12 @@ const news = [
         link: "https://ece.engin.umich.edu/stories/qa-with-new-faculty-member-junyi-zhu"
     },
     {
-        time: "[02/2025]",
+        time: "[01/2025]",
         description: "We are actively recruiting undergraduate and graduate researchers (PhD & Postdoc)!",
         link: "/join"
     },
     {
-        time: "[02/2025]",
+        time: "[01/2025]",
         description: "The Sensing Intelligence and eXperience Lab at UMich is established!",
         link: "",
     },
@@ -62,7 +62,15 @@ export default function Home(props) {
                 <HomeBanner />
                 <div className="h-80 d-flex flex-column justify-content-center">
                     <p style={{ fontSize: "0.75rem", color: "#222", lineHeight: "1.6", margin: 0 }}>
-                    The Sensing, Intelligence and eXperience (SIX) Lab develops innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances.
+                    The Sensing, Intelligence and eXperience (SIX) Lab is part of {" "}
+                    <a className="custome-a" href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer">
+                        Electrical Engineering and Computer Science
+                    </a>{" "} 
+                    department at the{" "} 
+                    <a className="custome-a" href="https://umich.edu" target="_blank" rel="noopener noreferrer">
+                        University of Michigan
+                    </a>
+                    . We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances.
                     </p>
                 </div>
             </Container>
@@ -87,11 +95,10 @@ export default function Home(props) {
                     </li>
                 ))}
             </ul>
-            {/* Research */}
+            {/* 
             <h2 className="custom-heading mb-4">Research</h2>
             <Card className="mb-0 p-1 border-0 custom-card">
                 <Row className="g-3 align-items-center">
-                    {/* Left: Image */}
                     <Col xs={12} md={6}>
                     <img
                         src={visionImg}
@@ -105,7 +112,6 @@ export default function Home(props) {
                     />
                     </Col>
 
-                    {/* Right: Text */}
                     <Col xs={12} md={6}>
                     <div className="h-80 d-flex flex-column justify-content-center">
                         <p style={{ fontSize: "0.75rem", color: "#222", lineHeight: "1.6", margin: 0 }}>
@@ -125,9 +131,9 @@ export default function Home(props) {
                     </div>
                     </Col>
                 </Row>
-            </Card>
+            </Card> */}
 
-            <Row className="g-3 mt-1">
+            <Row className="g-3 mt-1 mb-5">
                 <Col xs={12} sm={6}>
                     <Card className="h-100 shadow-sm border-0 small-card">
                     <Card.Body className="text-center p-3">

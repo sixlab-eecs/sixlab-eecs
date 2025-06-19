@@ -12,7 +12,7 @@
 .home-carousel img {
     width: 100%;
     height: auto;
-    aspect-ratio: 16 / 7; 
+    aspect-ratio: 16 / 7.5; 
     object-fit: cover;
 }
 
@@ -28,6 +28,15 @@
 }
 
 .custom-ul a:hover {
+    text-decoration: underline;
+}
+
+.custome-a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.custome-a:hover {
     text-decoration: underline;
 }
 

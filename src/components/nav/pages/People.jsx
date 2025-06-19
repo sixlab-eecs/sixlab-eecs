@@ -13,6 +13,9 @@ import FelixImg from "../../../assets/Felix.jpg";
 import WilliamImg from "../../../assets/William.jpg";
 import ShufengImg from "../../../assets/Shufeng.jpg";
 import ZhiyuImg from "../../../assets/Zhiyu.jpg";
+import DanielImg from "../../../assets/Daniel.jpeg";
+import JisuImg from "../../../assets/Jisu.jpg";
+import SieunImg from "../../../assets/Sieun.jpg";
 import "./People.css";
 
 const faculty = {
@@ -26,10 +29,16 @@ const faculty = {
 
 const phdStudents = [
     {
-        name: "Jiale Zhang",
-        img: defaultImg,
+        name: "Sieun Kim",
+        img: SieunImg,
         major: "PhD student",
-        website: "https://hcimaker.github.io",
+        website: "https://sieunk08.github.io/",
+    },
+    {
+        name: "Jisu Yim",
+        img: JisuImg,
+        major: "PhD student",
+        website: "https://jisuyim.com/",
     },
 ];
 
@@ -66,6 +75,12 @@ const undergrads = [
         name: "Felix Lu",
         img: FelixImg,
         major: "Undergraduate Student (CE)",
+    },
+    {
+        name: "Daniel Chen",
+        img: DanielImg,
+        major: "Undergraduate Student (EE)",
+        website: "https://www.linkedin.com/in/danieljunlinchen/",
     },
 ];
 
@@ -160,7 +175,7 @@ export default function People() {
                                 }}
                             >
                                 {faculty.bio}
-                                {/* Social Media */}
+                                {/* Social Media 
                             <div className="social-icons mt-2">
                                 <a href="https://scholar.google.com/citations?user=n5INNYUAAAAJ&hl=en&oi=ao" className="social-icon" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faGraduationCap} className="me-3" style={{ fontSize: "20px" }} />
@@ -175,6 +190,7 @@ export default function People() {
                                 <FontAwesomeIcon icon={faFacebook} className="me-3" size="2x" style={{ fontSize: "20px"}}/>
                                 </a>
                             </div>
+                                */}
                             </Card.Text>
                         </Card.Body>
                     </Col>
@@ -184,9 +200,9 @@ export default function People() {
             {/* Students */}
             <h3 className="mt-1 mb-2 custom-heading">Members</h3>
             <Row>
-                {/*{phdStudents.map((student, idx) => (
+                {phdStudents.map((student, idx) => (
                 <PersonCard key={idx} person={student} />
-                ))}*/}
+                ))}
                 {masterStudents.map((student, idx) => (
                 <PersonCard key={idx} person={student} />
                 ))}

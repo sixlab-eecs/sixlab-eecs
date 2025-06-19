@@ -15,13 +15,13 @@ export default function SIXNavbar() {
                         width="30"
                         height="30"
                     />
-                    <img
+                    {/*<img
                         alt="SIX Logo"
                         src={crest}
                         width="30"
                         height="30"
                         className="d-inline-block align-top me-2"
-                    />
+                    />*/}
                     <span className="navbar-title">SIX Lab</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
