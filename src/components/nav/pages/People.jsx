@@ -94,7 +94,7 @@ const visitings = [
 
 function PersonCard({ person }) {
     return (
-        <Col xs={6} sm={4} md={3} lg={3} className="mb-1">
+        <Col xs={12} sm={6} md={4} lg={3} className="mb-1">
             <Card className="person-card h-100 text-center border-0">
                 <Card.Img
                     variant="top"

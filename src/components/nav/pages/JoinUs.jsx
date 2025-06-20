@@ -59,7 +59,7 @@ export default function JoinUs(props) {
             </Card>
 
             {/* What we look for */}
-            <h2 className="custom-heading mb-4 mt-5">What we look for</h2>
+            <h2 className="custom-heading mb-4 mt-4">What we look for</h2>
             <p className="mb-4">
                 We are always looking for motivated students who are excited about exploring interdisciplinary ideas at the intersection of sensing, intelligence, and experience. We particularly welcome individuals who are intellectually curious, open to learning from setbacks, and enthusiastic about collaborative research in a supportive environment.
             </p>

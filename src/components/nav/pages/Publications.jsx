@@ -211,53 +211,57 @@ export default function Publications() {
         <h2 className="custom-heading mb-3">Publications</h2>
         {publications.map((pub, idx) => (
             <Card className="publication-card mb-1 p-3 d-flex flex-row align-items-stretch border-0">
-            <div style={{ 
-                    flex: "0 0 200px",           
-                    height: "140px",      
-                    overflow: "hidden",
-                }}>
-            <a href={pub.links.PDF} target="_blank" rel="noopener noreferrer">
-                <img
-                    src={pub.thumbnail}
-                    alt={pub.title}
-                    className="img-fluid h-100 w-100 object-fit-cover rounded"
-                    style={{ border: "1px solid #ccc" }}
-                />
-            </a>
-            </div>
-            <div className="ms-4 d-flex flex-column justify-content-between" style={{ flex: 1 }}>
-            <div>
-                <h5 className="pub-title mb-1">
-                    <a
-                        href={pub.links.PDF}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {pub.title}
+            <Row>
+                <Col xs={12} md={3}>
+                    <a href={pub.links.PDF} target="_blank" rel="noopener noreferrer">
+                        <img
+                        src={pub.thumbnail}
+                        alt={pub.title}
+                        className="img-fluid object-fit-cover rounded w-100"
+                        style={{
+                            height: "145px",
+                            border: "1px solid #ccc",
+                            objectFit: "cover",
+                        }}
+                        />
                     </a>
-                    {pub.highlight && (
-                        <span className="custom-badge ms-2">
-                        {pub.highlight}
-                        </span>
-                    )}
-                </h5>
-                <p className="pub-authors mb-1 text-muted">{pub.authors}</p>
-                <p className="pub-venue mb-2" style={{ fontStyle: "italic" }}>{pub.venue}</p>
-            </div>
-            <div className="pub-links">
-                {Object.entries(pub.links).map(([label, url]) => (
-                <a
-                    href={url}
-                    key={label}
-                    className="btn btn-sm btn-outline-secondary me-2 mb-2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {label}
-                </a>
-                ))}
-            </div>
-            </div>
+                </Col>
+
+                <Col xs={12} md={9} className="d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 className="pub-title mb-1">
+                        <a
+                            href={pub.links.PDF}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {pub.title}
+                        </a>
+                        {pub.highlight && (
+                            <span className="custom-badge ms-2">
+                            {pub.highlight}
+                            </span>
+                        )}
+                        </h5>
+                        <p className="pub-authors mb-1 text-muted">{pub.authors}</p>
+                        <p className="pub-venue mb-2" style={{ fontStyle: "italic" }}>{pub.venue}</p>
+                    </div>
+
+                    <div className="pub-links mt-2">
+                        {Object.entries(pub.links).map(([label, url]) => (
+                        <a
+                            href={url}
+                            key={label}
+                            className="btn btn-sm btn-outline-secondary me-2 mb-2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {label}
+                        </a>
+                        ))}
+                    </div>
+                </Col>
+            </Row>
         </Card>      
         ))}
         </Container>
