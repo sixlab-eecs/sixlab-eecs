@@ -1,0 +1,12 @@
+html {
+    font-size: 16px !important;
+}
+
+.container {
+  max-width: 1000px;      /* 最大宽度限制 */
+  margin-left: auto;      /* 左右自动边距实现水平居中 */
+  margin-right: auto;
+  padding-left: 15px;     /* 左右内边距，避免内容贴边 */
+  padding-right: 15px;
+  box-sizing: border-box; /* 让padding包含在宽度内 */
+}

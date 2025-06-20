@@ -61,7 +61,7 @@ export default function Home(props) {
             <Container fluid className="px-0 mb-4">
                 <HomeBanner />
                 <div className="h-80 d-flex flex-column justify-content-center">
-                    <p style={{ fontSize: "0.75rem", color: "#222", lineHeight: "1.6", margin: 0 }}>
+                    <p style={{ fontSize: "17px", color: "#222", lineHeight: "1.6", margin: 0 }}>
                     The Sensing, Intelligence and eXperience (SIX) Lab is part of {" "}
                     <a className="custome-a" href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer">
                         Electrical Engineering and Computer Science
@@ -70,7 +70,7 @@ export default function Home(props) {
                     <a className="custome-a" href="https://umich.edu" target="_blank" rel="noopener noreferrer">
                         University of Michigan
                     </a>
-                    . We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances.
+                    . The SIX Lab develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances.
                     </p>
                 </div>
             </Container>
@@ -137,7 +137,7 @@ export default function Home(props) {
                 <Col xs={12} sm={6}>
                     <Card className="h-100 shadow-sm border-0 small-card">
                     <Card.Body className="text-center p-3">
-                        <Users size={18} className="icon mb-2 text-info"/>
+                        <Users size={25} className="icon mb-2 text-info"/>
                         <p className="mb-2">Meet our team of researchers and collaborators.</p>
                         <a href="/people" className="stretched-link text-decoration-none">Learn More</a>
                     </Card.Body>
@@ -146,7 +146,7 @@ export default function Home(props) {
                 <Col xs={12} sm={6}>
                     <Card className="h-100 shadow-sm border-0 small-card">
                     <Card.Body className="text-center p-3">
-                        <BookOpen size={18} className="icon mb-2 text-info" />
+                        <BookOpen size={25} className="icon mb-2 text-info" />
                         <p className="mb-2">Read our research papers and latest publications.</p>
                         <a href="/publications" className="stretched-link text-decoration-none">Learn More</a>
                     </Card.Body>

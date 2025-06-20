@@ -2,24 +2,24 @@ body {
     background-color: #ffffff;
     font-family: 'Inter', 'Helvetica Neue', sans-serif;
     color: #222;
-    font-size: 14px; 
+    font-size: 18px !important; 
     line-height: 1.5;
 }
 
 .custom-heading {
     color: #222;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 22px !important;
     border-left: 4px solid #00bcd4;
     padding-left: 0.6rem;
-    margin-top: 1rem; 
-    margin-bottom: 1rem;
+    margin-top: 24px; 
+    margin-bottom: 24px;
 }
 
 .faculty-link {
     color: #00bcd4;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -46,8 +46,8 @@ a:hover {
 }
 
 .person-card .card-img-top {
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     height: 160px;
     object-fit: cover;
 }
@@ -60,12 +60,12 @@ a:hover {
 
 .card-title {
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 17px;
     color: #111;
 }
 
 .card-text {
-    font-size: 0.65rem;
+    font-size: 14px;
     color: #666;
 }
 

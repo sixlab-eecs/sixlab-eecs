@@ -208,12 +208,12 @@ const publications = [
 export default function Publications() {
     return (
         <Container className="mt-4">
-        <h2 className="custom-heading mb-2">Publications</h2>
+        <h2 className="custom-heading mb-3">Publications</h2>
         {publications.map((pub, idx) => (
             <Card className="publication-card mb-1 p-3 d-flex flex-row align-items-stretch border-0">
             <div style={{ 
                     flex: "0 0 200px",           
-                    height: "120px",      
+                    height: "140px",      
                     overflow: "hidden",
                 }}>
             <a href={pub.links.PDF} target="_blank" rel="noopener noreferrer">

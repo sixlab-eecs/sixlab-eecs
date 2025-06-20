@@ -15,12 +15,12 @@ export default function SIX() {
                             <Image
                                 src={EECSImg}
                                 alt="EECS Logo"
-                                height={35}
+                                height={70}
                                 className="me-2"
                                 style={{ opacity: 0.8 }}
                             />
                         </Col>
-                        <Col xs="auto" className="small" style={{ fontSize: "0.65rem", opacity: 0.8}}>
+                        <Col xs="auto" className="small" style={{ fontSize: "14px", opacity: 0.8}}>
                             © Sensing Intelligence and eXperience (SIX) Lab 2025
                         </Col>
                     </Row>

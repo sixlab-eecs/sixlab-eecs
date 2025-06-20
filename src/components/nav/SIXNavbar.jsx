@@ -12,8 +12,8 @@ export default function SIXNavbar() {
                         src="/umich.jpeg" 
                         alt="University of Michigan Logo" 
                         className="d-inline-block align-top me-2"
-                        width="30"
-                        height="30"
+                        width="50"
+                        height="50"
                     />
                     {/*<img
                         alt="SIX Logo"

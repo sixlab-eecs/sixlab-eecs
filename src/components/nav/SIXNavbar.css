@@ -1,7 +1,7 @@
 .navbar-title {
     font-weight: 600;
     color: #00bcd4;
-    font-size: 1.25rem;
+    font-size: 30px;
 }
 
 .six-navbar {
@@ -15,7 +15,7 @@
     font-weight: 450 !important;
     padding: 0.5rem 1rem !important;
     transition: color 0.3s ease !important;
-    font-size: 0.85rem !important;
+    font-size: 18px !important;
     font-family: 'Inter', 'Helvetica Neue', sans-serif !important;
 }
 
@@ -26,5 +26,5 @@
 
 .navbar {
     background-color: #ffffff !important;
-    border-bottom: 1px solid #eee;
+    border-bottom: 0px solid #eee;
 }

@@ -29,21 +29,21 @@ export default function JoinUs(props) {
                     </Col>
                     {/* Info */}
                     <Col md={6} className="d-flex flex-column justify-content-center p-4">
-                        <p className="mb-3">
+                        <p className="mb-4">
                             The Sensing, Intelligence and eXperience (SIX) Lab operates under the Department of {" "}
                             <a href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer">
                             Electrical Engineering and Computer Science
                             </a>{" "}
                             at the University of Michigan.
                         </p>
-                        <p className="mb-2">
+                        <p className="mb-3">
                             <strong>Lab Location:</strong> 
                             <br/>
                             G.G.Brown Building 3331 
                             <br/>
                             2350 Hayward St, Ann Arbor, MI 48109
                         </p>
-                        <p className="mb-2">
+                        <p className="mb-3">
                             <strong>Office:</strong>
                             <br/>
                             EECS Building 3217 
@@ -59,7 +59,7 @@ export default function JoinUs(props) {
             </Card>
 
             {/* What we look for */}
-            <h2 className="custom-heading mb-4">What we look for</h2>
+            <h2 className="custom-heading mb-4 mt-5">What we look for</h2>
             <p className="mb-4">
                 We are always looking for motivated students who are excited about exploring interdisciplinary ideas at the intersection of sensing, intelligence, and experience. We particularly welcome individuals who are intellectually curious, open to learning from setbacks, and enthusiastic about collaborative research in a supportive environment.
             </p>
@@ -70,7 +70,7 @@ export default function JoinUs(props) {
             </p>
             {/* How to join */}
             <h2 className="custom-heading mb-4">How to join</h2>
-            <p className="mb-4">
+            <p className="mb-5">
                 We welcome inquiries from prospective undergraduate researchers, PhD students, and postdoctoral fellows. If you're interested in joining the lab, please feel free to{" "}
                 <strong><a href="mailto:zhujunyi@umich.edu">contact us by email</a></strong>. We'd love to hear from you!
             </p>

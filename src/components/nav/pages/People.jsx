@@ -101,11 +101,11 @@ function PersonCard({ person }) {
                     src={person.img}
                     alt={person.name}
                     style={{
-                        height: "120px",
-                        width: "120px",
+                        height: "180px",
+                        width: "180px",
                         objectFit: "cover",
                         borderRadius: "50%",
-                        margin: "1rem auto 0 auto",
+                        margin: "24px auto 0 auto",
                     }}
                 />
 
@@ -139,18 +139,19 @@ export default function People() {
     return (
         <Container className="mt-4">
             {/* Faculty Section */}
-            <h2 className="mb-2 custom-heading">Principal Investigator</h2>
-            <Card className="mb-1 px-2 py-3 border-0 flex-row align-items-center faculty-card">
+            <h2 className="mb-3 custom-heading">Principal Investigator</h2>
+            <Card className="mb-3 px-2 py-3 border-0 flex-row align-items-center faculty-card">
                 <Row className="g-3 w-100">
                     <Col xs={12} sm={6} md={3}>
                     <Card.Img
                         src={faculty.img}
                         alt={faculty.name}
-                        className="img-fluid rounded"
+                        className="rounded"
                         style={{
-                        borderRadius: "0.75rem",
+                        borderRadius: "50px",
                         objectFit: "cover",
                         width: "100%",
+                        aspectRatio: "5 / 6",
                         }}
                     />
                     </Col>
@@ -168,8 +169,8 @@ export default function People() {
                             </Card.Title>
                             <Card.Text
                                 style={{
-                                    marginTop: "0.5rem",
-                                    fontSize: "0.75rem",
+                                    marginTop: "12px",
+                                    fontSize: "17px",
                                     color: "#444",
                                     lineHeight: "1.5",
                                 }}

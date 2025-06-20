@@ -1,5 +1,5 @@
 .publication-card {
-    border-radius: 1rem;
+    border-radius: 30px;
     box-shadow: none;
     background-color: #ffffff;
     transition: transform 0.2s ease;
@@ -13,24 +13,24 @@
 .custom-heading {
     color: #222;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 25px !important;
     border-left: 4px solid #00bcd4;
     padding-left: 0.6rem;
-    margin-top: 1rem; 
-    margin-bottom: 1rem;
+    margin-top: 24px; 
+    margin-bottom: 24px;
 }
 
 .pub-title a {
     color: #00bcd4;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 18px;
     text-decoration: none;
 }
 
 .pub-title {
     color: #00bcd4;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -39,26 +39,26 @@
 }
 
 .pub-authors {
-    font-size: 0.7rem;
+    font-size: 16px;
     line-height: 1.4;
 }
 
 .pub-venue {
-    font-size: 0.7rem;
+    font-size: 16px;
     line-height: 1.4;
 }
 
 .pub-links .btn {
-    font-size: 0.55rem;
-    border-radius: 0.2rem;
+    font-size: 12px;
+    border-radius: 5px;
 }
 
 .custom-badge {
     background: linear-gradient(90deg, #00bcd4, #2196f3); 
     color: white;
     padding: 0.3em 1em;
-    font-size: 0.5rem;
+    font-size: 10px;
     font-weight: 500;
-    border-radius: 8px;
+    border-radius: 10px;
     text-transform: uppercase;
 }
