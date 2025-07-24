@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && echo sixlab-eecs.com > dist/CNAME",
+    "predeploy": "npm run build && echo sixlab-eecs.com > dist/CNAME && cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist -r https://github.com/sixlab-eecs/sixlab-eecs.git"
   },
   "dependencies": {
