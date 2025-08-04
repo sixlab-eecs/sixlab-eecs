@@ -17,8 +17,41 @@ import thumb13 from "../../../assets/pub13.png";
 import thumb14 from "../../../assets/pub14.png";
 import thumb15 from "../../../assets/pub15.png";
 import thumb16 from "../../../assets/pub16_2.png";
+import thumb17 from "../../../assets/pub17.jpg.avif";
+import thumb18 from "../../../assets/pub18.avif";
+import thumb19 from "../../../assets/pub19.avif";
 
 const publications = [
+    {
+        title: "BandEI: A Flexible Electrical Impedance Sensing Bandage for Deep Muscles and Tendons",
+        authors: "Hongrui Wu*, Feier Long*, Hongyu Mao, JaeYoung Moon, Junyi Zhu†, Yiyue Luo†.   (†co-last authors)",
+        venue: "In Proceedings of ACM UIST 2025 (To appear)",
+        thumbnail: thumb17,
+        links: {
+            DOI: "",
+            PDF: "",
+        },
+    },
+    {
+        title: "Meta-antenna: Mechanically Frequency Reconfigurable Metamaterial Antennas",
+        authors: "Marwa AlAlawi, Regina Zheng, SooYeon Ahn, Katherine Arianna Yan, Ticha Sethapakdi, Junyi Zhu*, Stefanie Mueller*. (*co-last authors)",
+        venue: "In Proceedings of ACM UIST 2025 (To appear)",
+        thumbnail: thumb18,
+        links: {
+            DOI: "",
+            PDF: "",
+        },
+    },
+    {
+        title: "EI-Lite: Electrical Impedance Sensing for Micro-gesture Recognition and Pinch Force Estimation",
+        authors: "Junyi Zhu, Tianyu Xu, Jiayu Wang, Emily Guan, JaeYoung Moon, Stiven Morvan, D Shin, Andrea Colaço, Stefanie Mueller, Karan Ahuja, Yiyue Luo, Ishan Chatterjee. ",
+        venue: "In Proceedings of ACM UIST 2025 (To appear)",
+        thumbnail: thumb19,
+        links: {
+            DOI: "",
+            PDF: "",
+        },
+    },
     {
         title: "WiReSens Toolkit: An Open-source Platform towards Accessible Wireless Tactile Sensing",
         authors: "Devin Murphy, Junyi Zhu, Paul Pu Liang, Wojciech Matusik, and Yiyue Luo.",
@@ -213,7 +246,8 @@ export default function Publications() {
             <Card className="publication-card mb-1 p-3 d-flex flex-row align-items-stretch border-0">
             <Row>
                 <Col xs={12} md={3}>
-                    <a href={pub.links.PDF} target="_blank" rel="noopener noreferrer">
+                    {/* <a href={pub.links.PDF} target="_blank" rel="noopener noreferrer"> */}
+                    <a href={pub.links.PDF}>
                         <img
                         src={pub.thumbnail}
                         alt={pub.title}
@@ -232,8 +266,8 @@ export default function Publications() {
                         <h5 className="pub-title mb-1">
                         <a
                             href={pub.links.PDF}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            // target="_blank"
+                            // rel="noopener noreferrer"
                         >
                             {pub.title}
                         </a>
@@ -253,8 +287,8 @@ export default function Publications() {
                             href={url}
                             key={label}
                             className="btn btn-sm btn-outline-secondary me-2 mb-2"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            // target="_blank"
+                            // rel="noopener noreferrer"
                         >
                             {label}
                         </a>

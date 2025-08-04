@@ -10,13 +10,18 @@ import img4 from "../../../assets/pub10.png"
 import "./Home.css"
 
 const carouselImages = [
-    { src: group_photo, alt: 'Group photo' },
+    // { src: group_photo, alt: 'Group photo' },
     { src: pub8, alt: 'Project demo' },
     { src: pub12, alt: 'Project demo' },
     { src: pub3, alt: 'Project demo' },
 ];  
 
 const news = [
+    {
+        time: "[07/2025]",
+        description: "Three new papers conditionally accepted at ACM UIST 2025, see you in Busan, Korea!",
+        link: "",
+    },
     {
         time: "[04/2025]",
         description: "UMich ECE welcomes Prof. Junyi Zhu, PI of the SIX Lab, in a featured Q&A article.",
