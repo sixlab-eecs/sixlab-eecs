@@ -46,7 +46,7 @@ export default function JoinUs(props) {
                         <p className="mb-3">
                             <strong>Office:</strong>
                             <br/>
-                            EECS Building 3217 
+                            EECS Building 3114
                             <br/>
                             1301 Beal Ave, Ann Arbor, MI 48109
                         </p>

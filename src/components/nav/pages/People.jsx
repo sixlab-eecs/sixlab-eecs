@@ -16,6 +16,8 @@ import ZhiyuImg from "../../../assets/Zhiyu.jpg";
 import DanielImg from "../../../assets/Daniel.jpeg";
 import JisuImg from "../../../assets/Jisu.jpg";
 import SieunImg from "../../../assets/Sieun.jpg";
+import KaiyiImg from "../../../assets/Kaiyi.jpg";
+import AmandaImg from "../../../assets/Amanda.jpg";
 import "./People.css";
 
 const faculty = {
@@ -77,20 +79,34 @@ const undergrads = [
         major: "Undergraduate Student (CE)",
     },
     {
-        name: "Daniel Chen",
-        img: DanielImg,
+        name: "Amanda Xia",
+        img: AmandaImg,
         major: "Undergraduate Student (EE)",
-        website: "https://www.linkedin.com/in/danieljunlinchen/",
     },
 ];
 
 const visitings = [
     {
+        name: "Kaiyi Guo",
+        img: KaiyiImg,
+        major: "Visiting Student (CS)",
+        website: "https://guokaiyi-zzu.github.io/KaiyiGuo7.github.io/",
+    },
+];
+
+const alumni = [
+    {
+        name: "Daniel Chen",
+        img: DanielImg,
+        major: "Undergraduate Student (EE)",
+        website: "https://www.linkedin.com/in/danieljunlinchen/",
+    },
+    {
         name: "Alan Murillo-soto",
         img: AlanImg,
         major: "Visiting Student (EE)",
     },
-];
+]
 
 function PersonCard({ person }) {
     return (
@@ -199,7 +215,7 @@ export default function People() {
             </Card>
 
             {/* Students */}
-            <h3 className="mt-1 mb-2 custom-heading">Members</h3>
+            <h3 className="mt-1 mb-3 custom-heading">Members</h3>
             <Row>
                 {phdStudents.map((student, idx) => (
                 <PersonCard key={idx} person={student} />
@@ -211,6 +227,14 @@ export default function People() {
                 <PersonCard key={idx} person={student} />
                 ))}
                 {visitings.map((student, idx) => (
+                <PersonCard key={idx} person={student} />
+                ))}
+            </Row>
+
+            {/* Alumni */}
+            <h3 className="mt-3 mb-2 custom-heading">Alumni</h3>
+            <Row>
+                {alumni.map((student, idx) => (
                 <PersonCard key={idx} person={student} />
                 ))}
             </Row>

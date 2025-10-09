@@ -25,31 +25,34 @@ const publications = [
     {
         title: "BandEI: A Flexible Electrical Impedance Sensing Bandage for Deep Muscles and Tendons",
         authors: "Hongrui Wu*, Feier Long*, Hongyu Mao, JaeYoung Moon, Junyi Zhu†, Yiyue Luo†.   (†co-last authors)",
-        venue: "In Proceedings of ACM UIST 2025 (To appear)",
+        venue: "In Proceedings of ACM UIST 2025",
         thumbnail: thumb17,
         links: {
-            DOI: "",
-            PDF: "",
+            DOI: "https://dl.acm.org/doi/10.1145/3746059.3747732",
+            PDF: "https://dl.acm.org/doi/pdf/10.1145/3746059.3747732",
+            Video: "https://www.youtube.com/watch?v=_t8qtq1SrtE",
         },
     },
     {
         title: "Meta-antenna: Mechanically Frequency Reconfigurable Metamaterial Antennas",
         authors: "Marwa AlAlawi, Regina Zheng, SooYeon Ahn, Katherine Arianna Yan, Ticha Sethapakdi, Junyi Zhu*, Stefanie Mueller*. (*co-last authors)",
-        venue: "In Proceedings of ACM UIST 2025 (To appear)",
+        venue: "In Proceedings of ACM UIST 2025",
         thumbnail: thumb18,
         links: {
-            DOI: "",
-            PDF: "",
+            DOI: "https://dl.acm.org/doi/full/10.1145/3746059.3747760",
+            PDF: "https://dl.acm.org/doi/pdf/10.1145/3746059.3747760",
+            Video: "https://www.youtube.com/watch?v=D2wAeY43t50",
         },
     },
     {
         title: "EI-Lite: Electrical Impedance Sensing for Micro-gesture Recognition and Pinch Force Estimation",
         authors: "Junyi Zhu, Tianyu Xu, Jiayu Wang, Emily Guan, JaeYoung Moon, Stiven Morvan, D Shin, Andrea Colaço, Stefanie Mueller, Karan Ahuja, Yiyue Luo, Ishan Chatterjee. ",
-        venue: "In Proceedings of ACM UIST 2025 (To appear)",
+        venue: "In Proceedings of ACM UIST 2025",
         thumbnail: thumb19,
         links: {
-            DOI: "",
-            PDF: "",
+            DOI: "https://dl.acm.org/doi/10.1145/3746059.3747671",
+            PDF: "https://dl.acm.org/doi/pdf/10.1145/3746059.3747671",
+            Video: "https://www.youtube.com/watch?v=LQGgo-Q6sMo",
         },
     },
     {
