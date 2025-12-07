@@ -3,7 +3,7 @@
     font-weight: 600;
     line-height: 130%;
     font-size: 24px;
-    border-left: 4px solid var(--main);
+    border-left: 4px solid #00bcd4;
     padding-left: 0.6rem;
     margin-top: 1rem; 
     margin-bottom: 1rem;
@@ -53,7 +53,7 @@
 .small-card {
     font-size: 17px;
     border-radius: 0.5rem;
-    background-color: #f8f9fa;
+    background-color: #f8f9fa; /* 可替换为你网站主色调 */
     transition: transform 0.2s ease;
 }
 

@@ -4,13 +4,6 @@ body {
   font-style: normal;
 }
 
-:root {
-    --main: #6482AD;
-    --sub: #E2DAD6;
-    --dark-sub: #C2B2A1;
-
-    width: 99%;
-}
 .container {
   max-width: 1000px;      /* 最大宽度限制 */
   margin-left: auto;      /* 左右自动边距实现水平居中 */
