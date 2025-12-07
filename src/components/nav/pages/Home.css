@@ -3,7 +3,7 @@
     font-weight: 600;
     line-height: 130%;
     font-size: 24px;
-    border-left: 4px solid #00bcd4;
+    border-left: 4px solid var(--main);
     padding-left: 0.6rem;
     margin-top: 1rem; 
     margin-bottom: 1rem;
