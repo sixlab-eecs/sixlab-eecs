@@ -9,13 +9,12 @@
 }
 
 .six-navbar {
-    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     height: 150px;
 }
 
 .nav-link-custom {
-    color: #e0f7fa !important;
+    color: #fcfeff !important;
     font-weight: 450 !important;
     padding: 0.5rem 1rem !important;
     transition: color 0.3s ease !important;
@@ -29,7 +28,7 @@
 }
 
 .navbar {
-    background-color: #ffffff !important;
+    background-color: #00274C;
     border-bottom: 0px solid #eee;
 }
 /* ThreeColumn.css */
