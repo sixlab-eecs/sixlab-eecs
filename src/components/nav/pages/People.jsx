@@ -36,7 +36,7 @@ function MemberCard({ person }) {
                         </a>
                         </Card.Title>
                     ) : (
-                        <Card.Title as="h6">{person.name}</Card.Title>
+                        <Card.Title as="h6"><p className="student-name">{person.name}</p></Card.Title>
                     )}
                     <Card.Text>
                         {person.title}

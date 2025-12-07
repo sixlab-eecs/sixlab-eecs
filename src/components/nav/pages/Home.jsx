@@ -28,6 +28,28 @@ function useIsMobile(breakpoint = 768) {
 
   return isMobile;
 }
+
+export function HomeDescription(){
+    return (
+         <p className="home-description">
+        The Sensing, Intelligence and eXperience (SIX) Lab is part of {" "}
+        <a className="custome-a" href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer">
+            Electrical Engineering and Computer Science
+        </a>{" "} 
+        department at the{" "} 
+        <a className="custome-a" href="https://umich.edu" target="_blank" rel="noopener noreferrer">
+            University of Michigan
+        </a>
+        .
+        We advance  <strong>novel sensing</strong>, <strong>fabrication</strong>, and <strong>interaction design</strong> by bridging hardware and software innovations. 
+        We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction.
+        {/* We aim to improve healthcare accessibility and empower individuals through scalable, real-world technologies. */}
+        {/* . We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. 
+        Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. 
+        We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances. */}
+        </p>
+    );
+}
 export function HomeBanner() {
     const isMobile = useIsMobile();
     return (<>
@@ -54,29 +76,9 @@ export default function Home(props) {
     return (
         <Container>
             {/* Intro */}
-            {/* <h2 className="custom-heading mb-4 mt-4">Sensing Intelligence and eXperience Lab</h2> */}
-            {/*<h2 className="home-heading mb-4">The SIX Lab creates intelligent sensing technologies and interactive systems to advance health, human experience, and personalized computing.</h2>*/}
-            <Container fluid className="px-0 mb-4">
+            <Container fluid >
                 <HomeBanner />
-                <div className="h-80 d-flex flex-column justify-content-center">
-                    <p style={{ fontSize: "17px", color: "#222", lineHeight: "1.6", margin: 0 }}>
-                    The Sensing, Intelligence and eXperience (SIX) Lab is part of {" "}
-                    <a className="custome-a" href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer">
-                        Electrical Engineering and Computer Science
-                    </a>{" "} 
-                    department at the{" "} 
-                    <a className="custome-a" href="https://umich.edu" target="_blank" rel="noopener noreferrer">
-                        University of Michigan
-                    </a>
-                    .
-                    We advance  <strong>novel sensing</strong>, <strong>fabrication</strong>, and <strong>interaction design</strong> by bridging hardware and software innovations. 
-                    We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction.
-                    {/* We aim to improve healthcare accessibility and empower individuals through scalable, real-world technologies. */}
-                    {/* . We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. 
-                    Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. 
-                    We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances. */}
-                    </p>
-                </div>
+                <HomeDescription />
             </Container>
             {/* News */}
             <h2 className="custom-heading mb-4 mt-4">News</h2>

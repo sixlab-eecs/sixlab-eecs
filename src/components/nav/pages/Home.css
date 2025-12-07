@@ -44,6 +44,7 @@
 .custome-a {
     color: var(--primary-color);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .custome-a:hover {
@@ -78,4 +79,9 @@ a.stretched-link:hover {
 
 .icon-primary {
     color: var(--primary-color);
+}
+
+.home-description {
+    font-size: 17px;
+    line-height: 1.5;
 }

@@ -22,11 +22,16 @@ body {
     font-weight: 600;
 }
 
+.student-name {
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .student-link {
     color: var(--primary-color);
     text-decoration: none;
+    font-weight: 600;
 }
-
 a:hover {
     text-decoration: underline;
 }
