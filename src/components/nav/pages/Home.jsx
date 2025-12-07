@@ -68,7 +68,13 @@ export default function Home(props) {
                     <a className="custome-a" href="https://umich.edu" target="_blank" rel="noopener noreferrer">
                         University of Michigan
                     </a>
-                    . The SIX Lab develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances.
+                    .
+                    We advance  <strong>novel sensing</strong>, <strong>fabrication</strong>, and <strong>interaction design</strong> by bridging hardware and software innovations. 
+                    We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction.
+                    {/* We aim to improve healthcare accessibility and empower individuals through scalable, real-world technologies. */}
+                    {/* . We develop innovative sensing technologies, personalized signal processing models, and custom device form factors to enable continuous health monitoring and advanced human-computer interaction. 
+                    Our interdisciplinary team bridges hardware and software innovations in novel sensing, fabrication, and interaction design, collaborating closely with UMich faculty in engineering and medicine. 
+                    We aim to improve healthcare accessibility and empower individuals through scalable, real-world deployed technologies that foster impactful, cross-disciplinary advances. */}
                     </p>
                 </div>
             </Container>
