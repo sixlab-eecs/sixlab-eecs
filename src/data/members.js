@@ -87,7 +87,6 @@ const alumni = [
         img: "daniel.jpg",
         title: "Undergraduate Student",
         major: "EE",
-        website: "https://www.linkedin.com/in/danieljunlinchen/",
     },
     {
         name: "Alan Murillo-soto",
