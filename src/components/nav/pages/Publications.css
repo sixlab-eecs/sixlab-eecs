@@ -1,12 +1,12 @@
 .publication-card {
     border-radius: 30px;
     box-shadow: none;
-    background-color: #ffffff;
+    background-color: var(--custom-card-bg);
     transition: transform 0.2s ease;
 }
 
 .publication-card:hover {
-    background-color: #f0f4f8;
+    background-color: var(--custom-card-bg-hover);
     transition: color 0.3s ease;
 }
 
@@ -14,21 +14,21 @@
     color: #222;
     font-weight: 600;
     font-size: 25px !important;
-    border-left: 4px solid #00bcd4;
+    border-left: 4px solid var(--primary-color);
     padding-left: 0.6rem;
     margin-top: 24px; 
     margin-bottom: 24px;
 }
 
 .pub-title a {
-    color: #00bcd4;
+    color: var(--primary-color);
     font-weight: 600;
     font-size: 18px;
     text-decoration: none;
 }
 
 .pub-title {
-    color: #00bcd4;
+    color: var(--primary-color);
     font-weight: 600;
     font-size: 18px;
     text-decoration: none;

@@ -2,7 +2,7 @@
 
 .navbar-title {
     font-weight: 600;
-    color: white;
+    color: var(--bright-text-color);
     font-size: 36px;
     line-height: 1.1;
     font-family: "titular";
@@ -14,7 +14,7 @@
 }
 
 .nav-link-custom {
-    color: #fcfeff !important;
+    color: var(--bright-text-color) !important;
     font-weight: 450 !important;
     padding: 0.5rem 1rem !important;
     transition: color 0.3s ease !important;
@@ -23,12 +23,12 @@
 }
 
 .nav-link-custom:hover {
-    color: #80deea !important;
+    color: var(--primary-color) !important;
     text-decoration: none;
 }
 
 .navbar {
-    background-color: #00274C;
+    background-color: var(--bar-color);
     border-bottom: 0px solid #eee;
 }
 /* ThreeColumn.css */

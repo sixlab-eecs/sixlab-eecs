@@ -21,7 +21,7 @@
 }
 
 .join-us-container a {
-    color: #00bcd4;
+    color: var(--primary-color);
     text-decoration: none;
 }
 

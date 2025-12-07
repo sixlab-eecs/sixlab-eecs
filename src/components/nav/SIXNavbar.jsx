@@ -15,13 +15,6 @@ export default function SIXNavbar() {
                         width="90"
                         height="90"
                     />
-                    {/*<img
-                        alt="SIX Logo"
-                        src={crest}
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top me-2"
-                    />*/}
                     <span className="navbar-title">Sensing Intelligence <br /> and eXperience Lab</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
