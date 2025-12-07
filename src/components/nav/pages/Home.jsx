@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import visionImg from "../../../assets/vision2.png";
 import { Users, BookOpen } from "lucide-react";
 import group_photo from "../../../assets/Group_photo.jpg";
+import React, { useState, useEffect } from "react";
+import news from "../../../data/new";
+
+
 import "./Home.css"
 
 const carouselImages = [
@@ -12,55 +16,40 @@ const carouselImages = [
     { src: "publications/uist25_band_ei.avif", alt: 'Project demo' },
 ];  
 
-const news = [
-    {
-        time: "[07/2025]",
-        description: "Three new papers conditionally accepted at ACM UIST 2025, see you in Busan, Korea!",
-        link: "",
-    },
-    {
-        time: "[04/2025]",
-        description: "UMich ECE welcomes Prof. Junyi Zhu, PI of the SIX Lab, in a featured Q&A article.",
-        link: "https://ece.engin.umich.edu/stories/qa-with-new-faculty-member-junyi-zhu"
-    },
-    {
-        time: "[01/2025]",
-        description: "We are actively recruiting undergraduate and graduate researchers (PhD & Postdoc)!",
-        link: "/join"
-    },
-    {
-        time: "[01/2025]",
-        description: "The Sensing Intelligence and eXperience Lab at UMich is established!",
-        link: "",
-    },
-]
-
 // Carousel Images
-export function HomeBanner() {
-    return (
-        <div className="grid">
-      {carouselImages.map((img, i) => (
-        <img key={i} src={img.src} alt={img.alt} className="img" />
-      ))}
-    </div>
+function useIsMobile(breakpoint = 768) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < breakpoint);
 
-        // <Carousel fade interval={4000} className="home-carousel mt-4 mb-4 rounded shadow-sm overflow-hidden">
-        //     {carouselImages.map((img, idx) => (
-        //     <Carousel.Item key={idx}>
-        //         <img
-        //         className="d-block w-100"
-        //         src={img.src}
-        //         alt={img.alt}
-        //         />
-        //         {/*<Carousel.Caption>
-        //         <h5>{img.alt}</h5>
-        //         </Carousel.Caption>*/}
-        //     </Carousel.Item>
-        //     ))}
-        // </Carousel>
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < breakpoint);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [breakpoint]);
+
+  return isMobile;
+}
+export function HomeBanner() {
+    const isMobile = useIsMobile();
+    return (<>
+      {isMobile ? (
+        <Carousel fade interval={4000} className="home-carousel mt-4 mb-4 rounded shadow-sm overflow-hidden">
+          {carouselImages.map((img, idx) => (
+            <Carousel.Item key={idx}>
+              <img className="d-block w-100" src={img.src} alt={img.alt} />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      ) : (
+        <div className="grid">
+          {carouselImages.map((img, i) => (
+            <img key={i} src={img.src} alt={img.alt} className="img" />
+          ))}
+        </div>
+      )}
+    </>
+
     );
 }
-
 export default function Home(props) {
     return (
         <Container>
