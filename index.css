@@ -1,6 +1,9 @@
-html {
-    font-size: 16px !important;
+body {
+  font-family: "open-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 .container {
   max-width: 1000px;      /* 最大宽度限制 */

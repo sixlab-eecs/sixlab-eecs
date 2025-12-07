@@ -20,7 +20,7 @@
 }
 
 .home-carousel img {
-    width: 100%;
+    width: 50%;
     height: auto;
     aspect-ratio: 16 / 7.5; 
     object-fit: cover;
