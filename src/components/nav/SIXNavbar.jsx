@@ -9,11 +9,11 @@ export default function SIXNavbar() {
             <Container>
                 <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center">
                     <img 
-                        src="/umich.jpeg" 
+                        src="images/sixlab_logo_white.png" 
                         alt="University of Michigan Logo" 
                         className="d-inline-block align-top me-2"
-                        width="50"
-                        height="50"
+                        width="70"
+                        height="70"
                     />
                     {/*<img
                         alt="SIX Logo"
@@ -22,7 +22,7 @@ export default function SIXNavbar() {
                         height="30"
                         className="d-inline-block align-top me-2"
                     />*/}
-                    <span className="navbar-title">SIX Lab</span>
+                    <span className="navbar-title">Sensing Intelligence <br /> and eXperience Lab</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

@@ -62,7 +62,7 @@ export default function Home(props) {
             <h2 className="custom-heading mb-4 mt-4">Sensing Intelligence and eXperience Lab</h2>
             {/*<h2 className="home-heading mb-4">The SIX Lab creates intelligent sensing technologies and interactive systems to advance health, human experience, and personalized computing.</h2>*/}
             <Container fluid className="px-0 mb-4">
-                <HomeBanner />
+                {/* <HomeBanner /> */}
                 <div className="h-80 d-flex flex-column justify-content-center">
                     <p style={{ fontSize: "17px", color: "#222", lineHeight: "1.6", margin: 0 }}>
                     The Sensing, Intelligence and eXperience (SIX) Lab is part of {" "}

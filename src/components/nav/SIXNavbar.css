@@ -1,7 +1,9 @@
 .navbar-title {
     font-weight: 600;
-    color: #00bcd4;
+    color: white;
     font-size: 30px;
+    line-height: 1.1;
+    font-family: "titular";
 }
 
 .six-navbar {
