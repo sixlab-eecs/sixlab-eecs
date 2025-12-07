@@ -37,7 +37,7 @@ const publications = [
         title: "WiReSens Toolkit: An Open-source Platform towards Accessible Wireless Tactile Sensing",
         authors: "Devin Murphy, Junyi Zhu, Paul Pu Liang, Wojciech Matusik, and Yiyue Luo.",
         venue: "In arXiv preprint arXiv:2412.00247 (2024)",
-        thumbnail: "arXiv24_wiresens.png.png",
+        thumbnail: "arXiv24_wiresens.png",
         links: {
             DOI: "https://arxiv.org/abs/2412.00247",
             PDF: "https://arxiv.org/pdf/2412.00247",

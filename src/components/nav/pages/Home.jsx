@@ -3,17 +3,13 @@ import { Link } from "react-router-dom";
 import visionImg from "../../../assets/vision2.png";
 import { Users, BookOpen } from "lucide-react";
 import group_photo from "../../../assets/Group_photo.jpg";
-import pub3 from "../../../assets/pub3.png"
-import pub12 from "../../../assets/pub12.jpg"
-import pub8 from "../../../assets/pub8_home.png"
-import img4 from "../../../assets/pub10.png"
 import "./Home.css"
 
 const carouselImages = [
     // { src: group_photo, alt: 'Group photo' },
-    { src: pub8, alt: 'Project demo' },
-    { src: pub12, alt: 'Project demo' },
-    { src: pub3, alt: 'Project demo' },
+    { src: "publications/icra24_liquids_ident.png", alt: 'Project demo' },
+    { src: "publications/uist22_musclerehab.png", alt: 'Project demo' },
+    { src: "publications/uist25_band_ei.avif", alt: 'Project demo' },
 ];  
 
 const news = [
