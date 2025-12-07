@@ -15,8 +15,10 @@ body {
 
 /* define color */
 :root {
-    --bar-color: #1B211A;
-    --primary-color: #628141;
+    --bar-color: #161616;
+    --primary-color: #f49d37;
+    --primary-text-color: #191716;
+    --secondary-text-color: #161616;
     --text-color: #222;
     --bright-text-color: #f8f9fa;
     --custom-card-bg: #fafafa;

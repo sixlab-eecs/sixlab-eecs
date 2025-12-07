@@ -21,7 +21,7 @@
 }
 
 .pub-title a {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
     font-weight: 600;
     font-size: 18px;
     text-decoration: none;

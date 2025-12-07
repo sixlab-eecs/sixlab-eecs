@@ -31,7 +31,7 @@ export default function JoinUs(props) {
                     <Col md={6} className="d-flex flex-column justify-content-center p-4">
                         <p className="mb-4">
                             The Sensing, Intelligence and eXperience (SIX) Lab operates under the Department of {" "}
-                            <a href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer">
+                            <a href="https://eecs.engin.umich.edu" target="_blank" rel="noopener noreferrer" className="link">
                             Electrical Engineering and Computer Science
                             </a>{" "}
                             at the University of Michigan.
@@ -52,7 +52,7 @@ export default function JoinUs(props) {
                         </p>
                         <p className="mb-0">
                             <strong>Email:</strong><br/>
-                            <a href="mailto:zhujunyi@umich.edu">zhujunyi@umich.edu</a>
+                            <a href="mailto:zhujunyi@umich.edu" className="link">zhujunyi@umich.edu</a>
                         </p>
                     </Col>
                 </Row>

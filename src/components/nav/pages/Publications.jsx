@@ -6,7 +6,6 @@ import publications from "../../../data/publication";
 export default function Publications() {
     return (
         <Container className="mt-4">
-        <h2 className="custom-heading mb-3">Publications</h2>
         {publications.map((pub, idx) => (
             <Card className="publication-card mb-1 p-3 d-flex flex-row align-items-stretch border-0">
             <Row>
