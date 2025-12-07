@@ -5,7 +5,7 @@
 }
 
 .six-navbar {
-    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); /* 深蓝渐变 */
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
     padding: 0.5rem 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }

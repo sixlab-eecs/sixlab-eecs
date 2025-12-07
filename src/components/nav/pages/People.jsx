@@ -3,110 +3,8 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faGoogleScholar, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
-// import images from assets
-import JunyiImg from "../../../assets/Junyi.png";
-import defaultImg from "../../../assets/NA.svg";
-import AlanImg from "../../../assets/Alan.JPG";
-import QianhuiImg from "../../../assets/Qianhui2.jpg";
-import LingxiaoImg from "../../../assets/Lingxiao_sq.jpg";
-import FelixImg from "../../../assets/Felix.jpg";
-import WilliamImg from "../../../assets/William.jpg";
-import ShufengImg from "../../../assets/Shufeng.jpg";
-import ZhiyuImg from "../../../assets/Zhiyu.jpg";
-import DanielImg from "../../../assets/Daniel.jpeg";
-import JisuImg from "../../../assets/Jisu.jpg";
-import SieunImg from "../../../assets/Sieun.jpg";
-import KaiyiImg from "../../../assets/Kaiyi.jpg";
-import AmandaImg from "../../../assets/Amanda.jpg";
 import "./People.css";
 
-const faculty = {
-    name: "Junyi Zhu",
-    website: "https://www.junyizhu.com/",
-    img: JunyiImg,
-    bio: `Junyi is an Assistant Professor at University of Michigan, Electrical Engineering and Computer Science (EECS) Department.
-    He received his Ph.D. in Computer Science from Massachusetts Institute of Technology and B.S. in Electrical & Computer Engineering from University of Washington.
-    With his background in health sensing, fabrication and human-computer interaction, he is uniquely positioned to design and fabricate personal health and medical devices, build signal processing models for individual patients and their specific conditions, and deploy his devices in studies with doctors and patients.`,
-};
-
-const phdStudents = [
-    {
-        name: "Sieun Kim",
-        img: SieunImg,
-        major: "PhD student",
-        website: "https://sieunk08.github.io/",
-    },
-    {
-        name: "Jisu Yim",
-        img: JisuImg,
-        major: "PhD student",
-        website: "https://jisuyim.com/",
-    },
-];
-
-const masterStudents = [
-    {
-        name: "Shufeng Yin",
-        img: ShufengImg,
-        major: "Master Student (ECE)",
-    },
-    {
-        name: "Zhiyu Jia",
-        img: ZhiyuImg,
-        major: "Master Student (ECE)",
-    },
-];
-
-const undergrads = [
-    {
-        name: "Qianhui Zheng",
-        img: QianhuiImg,
-        major: "Undergraduate Student (CS)",
-    },
-    {
-        name: "Lingxiao Yang",
-        img: LingxiaoImg,
-        major: "Undergraduate Student (CE)",
-    },
-    {
-        name: "Yizhe (William) Shen",
-        img: WilliamImg,
-        major: "Undergraduate Student (CE)",
-    },
-    {
-        name: "Felix Lu",
-        img: FelixImg,
-        major: "Undergraduate Student (CE)",
-    },
-    {
-        name: "Amanda Xia",
-        img: AmandaImg,
-        major: "Undergraduate Student (EE)",
-    },
-];
-
-const visitings = [
-    {
-        name: "Kaiyi Guo",
-        img: KaiyiImg,
-        major: "Visiting Student (CS)",
-        website: "https://guokaiyi-zzu.github.io/KaiyiGuo7.github.io/",
-    },
-];
-
-const alumni = [
-    {
-        name: "Daniel Chen",
-        img: DanielImg,
-        major: "Undergraduate Student (EE)",
-        website: "https://www.linkedin.com/in/danieljunlinchen/",
-    },
-    {
-        name: "Alan Murillo-soto",
-        img: AlanImg,
-        major: "Visiting Student (EE)",
-    },
-]
 
 function PersonCard({ person }) {
     return (
@@ -114,7 +12,7 @@ function PersonCard({ person }) {
             <Card className="person-card h-100 text-center border-0">
                 <Card.Img
                     variant="top"
-                    src={person.img}
+                    src={`/members/${member.img}`}
                     alt={person.name}
                     style={{
                         height: "180px",
