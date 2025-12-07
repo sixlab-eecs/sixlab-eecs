@@ -38,11 +38,10 @@ function MemberCard({ person }) {
                     ) : (
                         <Card.Title as="h6">{person.name}</Card.Title>
                     )}
-                    {person.major && (
-                        <Card.Text>
-                        {person.major}
-                        </Card.Text>
-                    )}
+                    <Card.Text>
+                        {person.title}
+                        {person.major ? ` • ${person.major}` : ""}
+                    </Card.Text>
                 </Card.Body>
             </Card>
         </Col>
