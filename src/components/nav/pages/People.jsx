@@ -12,7 +12,7 @@ function MemberCard({ person }) {
             <Card className="person-card h-100 text-center border-0">
                 <Card.Img
                     variant="top"
-                    src={`/members/${member.img}`}
+                    src={`/members/${person.img}`}
                     alt={person.name}
                     style={{
                         height: "180px",
@@ -50,6 +50,7 @@ function MemberCard({ person }) {
 }
 
 function ProfCard({ faculty }) {
+    return (
     <Card className="mb-3 px-2 py-3 border-0 flex-row align-items-center faculty-card">
         <Row className="g-3 w-100">
             <Col xs={12} sm={6} md={3}>
@@ -91,6 +92,7 @@ function ProfCard({ faculty }) {
             </Col>
         </Row>
     </Card>
+    );
 }
 
 export default function People() {

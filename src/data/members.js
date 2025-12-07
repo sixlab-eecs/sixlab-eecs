@@ -96,3 +96,5 @@ const alumni = [
         major: "EE",
     },
 ]
+
+export { faculty, phdStudents, masterStudents, undergrads, visitings, alumni };
