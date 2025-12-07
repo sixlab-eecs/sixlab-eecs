@@ -53,7 +53,7 @@
 .small-card {
     font-size: 17px;
     border-radius: 0.5rem;
-    background-color: #f8f9fa; /* 可替换为你网站主色调 */
+    background-color: #f8f9fa;
     transition: transform 0.2s ease;
 }
 
