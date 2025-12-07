@@ -103,7 +103,7 @@ export default function Home(props) {
                 <Col xs={12} sm={6}>
                     <Card className="h-100 shadow-sm border-0 small-card">
                     <Card.Body className="text-center p-3">
-                        <Users size={25} className="icon mb-2 text-info"/>
+                        <Users size={25} className="mb-2 icon-primary"/>
                         <p className="mb-2">Meet our team of researchers and collaborators.</p>
                         <a href="/people" className="stretched-link text-decoration-none">Learn More</a>
                     </Card.Body>
@@ -112,7 +112,7 @@ export default function Home(props) {
                 <Col xs={12} sm={6}>
                     <Card className="h-100 shadow-sm border-0 small-card">
                     <Card.Body className="text-center p-3">
-                        <BookOpen size={25} className="icon mb-2 text-info" />
+                        <BookOpen size={25} className="mb-2 icon-primary" />
                         <p className="mb-2">Read our research papers and latest publications.</p>
                         <a href="/publications" className="stretched-link text-decoration-none">Learn More</a>
                     </Card.Body>

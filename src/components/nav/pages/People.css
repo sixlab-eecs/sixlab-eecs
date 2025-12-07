@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: var(--custom-card-bg);
     color: #222;
     font-size: 18px !important; 
     line-height: 1.5;
@@ -9,21 +9,21 @@ body {
     color: #222;
     font-weight: 600;
     font-size: 22px !important;
-    border-left: 4px solid #00bcd4;
+    border-left: 4px solid var(--primary-color);
     padding-left: 0.6rem;
     margin-top: 24px; 
     margin-bottom: 24px;
 }
 
 .faculty-link {
-    color: #00bcd4;
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
 }
 
 .student-link {
-    color: #00bcd4;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -35,12 +35,12 @@ a:hover {
     border-radius: 5rem;
     border:1px solid #e5e7eb;
     box-shadow: none;
-    background-color: #fafafa;
+    background-color: var(--custom-card-bg);
     transition: background-color 0.2s ease;
 }
 
 .person-card:hover {
-    background-color: #f0f4f8;
+    background-color: var(--custom-card-hover-bg);
     transition: color 0.3s ease;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 
 .faculty-card {
     border-radius: 1rem;
-    background-color: #fafafa;
+    background-color: var(--custom-card-bg);
     box-shadow: none;
 }
 
@@ -66,13 +66,4 @@ a:hover {
 .card-text {
     font-size: 14px;
     color: #666;
-}
-
-.social-icon {
-    color: #555;
-    transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-color: #00bcd4; 
 }
