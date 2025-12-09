@@ -17,3 +17,7 @@ To update the website:
     ```bash
    npm run deploy # build and push updates to GitHub Pages
    ```
+
+## TODO
+1. Fix mobile version (menu)
+2. Fix image not loaded issue in publication
