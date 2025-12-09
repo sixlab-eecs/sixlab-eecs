@@ -3,7 +3,7 @@
     font-weight: 600;
     line-height: 130%;
     font-size: 24px;
-    border-left: 4px solid #00bcd4;
+    border-left: 4px solid var(--primary-color);
     padding-left: 0.6rem;
     margin-top: 1rem; 
     margin-bottom: 1rem;
@@ -13,14 +13,14 @@
     color: #222;
     font-weight: 600;
     font-size: 29px;
-    border-left: 4px solid #00bcd4;
+    border-left: 4px solid var(--primary-color);
     padding-left: 0.6rem;
     margin-top: 1rem; 
     margin-bottom: 1rem;
 }
 
 .home-carousel img {
-    width: 100%;
+    width: 50%;
     height: auto;
     aspect-ratio: 16 / 7.5; 
     object-fit: cover;
@@ -33,7 +33,7 @@
 }
 
 .custom-ul a {
-    color: #00bcd4;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -42,8 +42,9 @@
 }
 
 .custome-a {
-    color: #00bcd4;
+    color: var(--primary-color);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .custome-a:hover {
@@ -53,7 +54,7 @@
 .small-card {
     font-size: 17px;
     border-radius: 0.5rem;
-    background-color: #f8f9fa; /* 可替换为你网站主色调 */
+    background-color: var(--custom-card-bg);
     transition: transform 0.2s ease;
 }
 
@@ -63,7 +64,7 @@
 }
 
 a.stretched-link {
-    color: #00bcd4 !important;
+    color: var(--primary-color) !important;
     text-decoration: none;
 }
 
@@ -73,5 +74,14 @@ a.stretched-link:hover {
 
 .custom-card {
     border-radius: 1rem;
-    background-color: #afafaf;
+    background-color: var(--custom-card-bg);
+}
+
+.icon-primary {
+    color: var(--primary-color);
+}
+
+.home-description {
+    font-size: 17px;
+    line-height: 1.5;
 }

@@ -5,24 +5,17 @@ import "./SIXNavbar.css";
 
 export default function SIXNavbar() {
     return (
-        <Navbar bg="light" variant="light" sticky="top" expand="sm" collapseOnSelect className="six-navbar">
+        <Navbar sticky="top" expand="sm" collapseOnSelect className="six-navbar">
             <Container>
                 <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center">
                     <img 
-                        src="/umich.jpeg" 
-                        alt="University of Michigan Logo" 
+                        src="images/sixlab_logo_white.png" 
+                        alt="Lab Logo" 
                         className="d-inline-block align-top me-2"
-                        width="50"
-                        height="50"
+                        width="90"
+                        height="90"
                     />
-                    {/*<img
-                        alt="SIX Logo"
-                        src={crest}
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top me-2"
-                    />*/}
-                    <span className="navbar-title">SIX Lab</span>
+                    <span className="navbar-title">Sensing Intelligence <br /> and eXperience Lab</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
