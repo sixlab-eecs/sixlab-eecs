@@ -1,9 +1,7 @@
 import { Container, Row, Col, Card, Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import visionImg from "../../../assets/vision2.png";
 import { Users, BookOpen } from "lucide-react";
-import group_photo from "../../../assets/Group_photo.jpg";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import news from "../../../data/new";
 
 
