@@ -14,7 +14,7 @@ export default function SIX() {
                             <Image
                                 src="\images\logo-eecs-1.svg"
                                 alt="EECS Logo"
-                                height={50}
+                                height={40}
                                 className="me-2"
                                 style={{ opacity: 0.8 }}
                             />
