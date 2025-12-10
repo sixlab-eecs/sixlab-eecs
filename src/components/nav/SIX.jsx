@@ -1,7 +1,6 @@
-import SIXNavbar from "./nav/SIXNavbar";
+import SIXNavbar from "./SIXNavbar";
 import { Outlet } from "react-router-dom";
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import EECSImg from "../assets/eecs-logo.png";
 
 export default function SIX() {
     return (
@@ -13,9 +12,9 @@ export default function SIX() {
                     <Row className="justify-content-center align-items-center text-center">
                         <Col xs="auto">
                             <Image
-                                src={EECSImg}
+                                src="\images\logo-eecs-1.svg"
                                 alt="EECS Logo"
-                                height={70}
+                                height={50}
                                 className="me-2"
                                 style={{ opacity: 0.8 }}
                             />

@@ -8,9 +8,15 @@
     font-family: "titular";
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .six-navbar {
+    background-color: #eee;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    height: 150px;
 }
 
 .nav-link-custom {
@@ -54,4 +60,34 @@
   .grid {
     grid-template-columns: 1fr;
   }
+  .navbar-title{
+    display: none;
+  }
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+@media (max-width: 575px) {
+  
+/* Default collapsed state */
+.navbar-collapse {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* When expanded (Bootstrap adds .show) */
+.navbar-collapse.show {
+  transform: translateY(0);
+  opacity: 1;
+  background-color: var(--bar-color);
+
+}
 }
