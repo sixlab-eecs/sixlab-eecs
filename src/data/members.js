@@ -44,7 +44,7 @@ const undergrads = [
         name: "Qianhui Zheng",
         img: "qianhui.jpg",
         title: "Undergraduate Student",
-        major: "CE"
+        major: "CS"
     },
     {
         name: "Lingxiao Yang",
