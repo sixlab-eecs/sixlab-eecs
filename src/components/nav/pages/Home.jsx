@@ -9,9 +9,9 @@ import "./Home.css"
 
 const carouselImages = [
     // { src: group_photo, alt: 'Group photo' },
-    { src: "publications/icra24_liquids_ident.png", alt: 'Project demo' },
-    { src: "publications/uist22_musclerehab.png", alt: 'Project demo' },
-    { src: "publications/uist25_band_ei.avif", alt: 'Project demo' },
+    { src: "/publications/icra24_liquids_ident.png", alt: 'Project demo' },
+    { src: "/publications/uist22_musclerehab.png", alt: 'Project demo' },
+    { src: "/publications/uist25_band_ei.avif", alt: 'Project demo' },
 ];  
 
 // Carousel Images

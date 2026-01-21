@@ -13,7 +13,7 @@ export default function Publications() {
                     {/* <a href={pub.links.PDF} target="_blank" rel="noopener noreferrer"> */}
                     <a href={pub.links.PDF}>
                         <img
-                        src={"publications/" + pub.thumbnail}
+                        src={"/publications/" + pub.thumbnail}
                         alt={pub.title}
                         className="img-fluid object-fit-cover rounded w-100"
                         style={{
