@@ -21,6 +21,20 @@ export default function SIX() {
                         </Col>
                         <Col xs="auto" className="small" style={{ fontSize: "14px", opacity: 0.8}}>
                             © Sensing Intelligence and eXperience (SIX) Lab 2025
+                            <br />
+                            Logo design by{" "}
+                            <a
+                                href="https://emilyguan.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    color: "inherit",
+                                    textDecoration: "none",
+                                    cursor: "pointer",
+                                }}
+    >
+                                Emily Guan
+                            </a>
                         </Col>
                     </Row>
                 </footer>
