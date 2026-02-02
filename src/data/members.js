@@ -70,6 +70,12 @@ const undergrads = [
         title: "Undergraduate Student",
         major: "EE"
     },
+    {
+        name: "Sophie Yang",
+        img: "sophie.jpg",
+        title: "Undergraduate Student",
+        major: "EE"
+    }
 ];
 
 const visitings = [
