@@ -37,6 +37,12 @@ const masterStudents = [
         title: "Master Student",
         major: "ECE",
     },
+    {
+        name: "Rana Kamh",
+        img: "rana.jpg",
+        title: "Master Student",
+        major: "ECE",
+    }
 ];
 
 const undergrads = [
