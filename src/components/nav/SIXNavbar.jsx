@@ -21,7 +21,7 @@ export default function SIXNavbar() {
                         src="images/sixlab_logo_white.png" 
                         alt="Lab Logo" 
                         className="sixlab-logo"
-                        width="90"
+                        // width="90"
                         height="90"
                     />
                     <span className="navbar-title">Sensing Intelligence <br /> and eXperience Lab</span>
