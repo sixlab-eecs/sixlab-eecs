@@ -108,7 +108,7 @@ export default function Home(props) {
                         className="see-btn"
                         onClick={() => setShowAll(!showAll)}
                     >
-                        {showAll ? "See less" : "See more"}
+                        {showAll ? "See Less" : "See More"}
                     </button>
                 )}
             </div>

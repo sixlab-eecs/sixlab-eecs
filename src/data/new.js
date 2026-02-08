@@ -13,12 +13,12 @@ const news = [
     },
     {
         time: "[09/2025]",
-        description: "Two PhD students, Sieun and Jisu, joined the SIX Lab.",
+        description: "Two PhD students, Sieun and Jisu, joined the SIX Lab!",
         link: "",
     },
     {
         time: "[07/2025]",
-        description: "Three new papers conditionally accepted at UIST 2025, see you in Busan, Korea!",
+        description: "Three new papers conditionally accepted at UIST 2025. See you in Busan, Korea!",
         link: "",
     },
     {
