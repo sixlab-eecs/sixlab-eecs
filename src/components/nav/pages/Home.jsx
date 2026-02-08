@@ -82,7 +82,7 @@ export default function Home(props) {
                 <HomeDescription />
             </Container>
             {/* News */}
-            \<h2 className="custom-heading mb-4 mt-4">News</h2>
+            <h2 className="custom-heading mb-4 mt-4">News</h2>
             <ul className="custom-ul mb-4">
                 {visibleNews.map((item, idx) => (
                     <li key={idx} className="mb-1">
