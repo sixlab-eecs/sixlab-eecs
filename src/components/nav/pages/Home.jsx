@@ -50,6 +50,7 @@ export function HomeDescription(){
 }
 export function HomeBanner() {
     const isMobile = useIsMobile();
+
     return (<>
       {isMobile ? (
         <Carousel fade interval={4000} className="home-carousel mt-4 mb-4 rounded shadow-sm overflow-hidden">
@@ -71,6 +72,8 @@ export function HomeBanner() {
     );
 }
 export default function Home(props) {
+    const [showAll, setShowAll] = useState(false);
+    const visibleNews = showAll ? news : news.slice(0, 4);
     return (
         <Container>
             {/* Intro */}
@@ -79,9 +82,9 @@ export default function Home(props) {
                 <HomeDescription />
             </Container>
             {/* News */}
-            <h2 className="custom-heading mb-4 mt-4">News</h2>
+            \<h2 className="custom-heading mb-4 mt-4">News</h2>
             <ul className="custom-ul mb-4">
-                {news.map((item, idx) => (
+                {visibleNews.map((item, idx) => (
                     <li key={idx} className="mb-1">
                         {item.time} {item.description || "(Details coming soon)"}
                         {item.link && (
@@ -99,6 +102,16 @@ export default function Home(props) {
                     </li>
                 ))}
             </ul>
+            <div className="center">
+                {news.length > 4 && (
+                    <button
+                        className="see-btn"
+                        onClick={() => setShowAll(!showAll)}
+                    >
+                        {showAll ? "See Less" : "See More"}
+                    </button>
+                )}
+            </div>
             <Row className="g-3 mt-1 mb-5">
                 <Col xs={12} sm={6}>
                     <Card className="h-100 shadow-sm border-0 small-card">

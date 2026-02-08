@@ -85,3 +85,25 @@ a.stretched-link:hover {
     font-size: 17px;
     line-height: 1.5;
 }
+
+.see-btn {
+    background: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    padding: 0.2rem 1.0rem;
+}
+
+.see-btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
