@@ -29,6 +29,12 @@ const phdStudents = [
         // major: "ECE",
         website: "https://jisuyim.com/",
     },
+    {
+        name: "Kaiyi Guo",
+        img: "kaiyi.jpg",
+        title: "PhD Student",
+        website: "https://guokaiyi-zzu.github.io/KaiyiGuo7.github.io/",
+    },
 ];
 
 const masterStudents = [
@@ -92,12 +98,6 @@ const undergrads = [
 ];
 
 const visitings = [
-    {
-        name: "Kaiyi Guo",
-        img: "kaiyi.jpg",
-        title: "Visiting Student",
-        website: "https://guokaiyi-zzu.github.io/KaiyiGuo7.github.io/",
-    },
 ];
 
 const alumni = [
