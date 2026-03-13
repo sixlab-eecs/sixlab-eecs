@@ -9,6 +9,13 @@ const faculty = {
 
 const phdStudents = [
     {
+        name: "Jiale Zhang",
+        img: "jiale.jpg",
+        title: "PhD Student",
+        // major: "ECE",
+        website: "https://hcimaker.github.io",
+    },
+    {
         name: "Sieun Kim",
         img: "sieun.jpg",
         title: "PhD Student",

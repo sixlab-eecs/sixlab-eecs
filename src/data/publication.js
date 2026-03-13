@@ -1,6 +1,15 @@
 
 const publications = [
     {
+        title: "MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR",
+        authors: "Tianyu Xu, Sieun Kim, Qianhui Zheng, Ruoyu Xu, Tejasvi Ravi, Anuva Kulkarni, Katrina Passarella-Ward, Junyi Zhu*, Adarsh Kowdle*. (*co-last authors)",
+        venue: "In Proceedings of ACM CHI 2026",
+        thumbnail: "chi26_moxart.png",
+        links: {
+            PDF: "https://arxiv.org/pdf/2603.10465v1",
+        }
+    },
+    {
         title: "BandEI: A Flexible Electrical Impedance Sensing Bandage for Deep Muscles and Tendons",
         authors: "Hongrui Wu*, Feier Long*, Hongyu Mao, JaeYoung Moon, Junyi Zhu†, Yiyue Luo†.   (†co-last authors)",
         venue: "In Proceedings of ACM UIST 2025",
