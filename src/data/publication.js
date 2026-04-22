@@ -6,7 +6,18 @@ const publications = [
         venue: "In Proceedings of ACM CHI 2026",
         thumbnail: "chi26_moxart.png",
         links: {
-            PDF: "https://arxiv.org/pdf/2603.10465v1",
+            // PDF: "/pdfs/chi26_moxart.pdf",
+            PDF: "https://dl.acm.org/doi/pdf/10.1145/3772318.3791929",
+        }
+    },
+    {
+        title: "RealTwin: Concept Graph Representation and Grounding Framework for Reality-Preserving Digital Twin Reconstruction",
+        authors: "Zisu Li, Ruohao Li, Jiawei Li, Chao Liu, Junyi Zhu, Daniela Rus, Chen Liang, Mingming Fan",
+        venue: "In Proceedings of ACM CHI 2026",
+        thumbnail: "chi26_realtwin.png",
+        links: {
+            // PDF(small): "/pdfs/chi26_realtwin.pdf",
+            PDF: "https://dl.acm.org/doi/pdf/10.1145/3772318.3790590",
         }
     },
     {
