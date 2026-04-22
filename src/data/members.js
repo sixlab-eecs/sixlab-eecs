@@ -20,7 +20,7 @@ const phdStudents = [
         img: "sieun.jpg",
         title: "PhD Student",
         // major: "ECE",
-        website: "https://sieunk08.github.io/",
+        website: "https://kimsieun.com/",
     },
     {
         name: "Jisu Yim",
