@@ -2,6 +2,7 @@ const faculty = {
     name: "Junyi Zhu",
     website: "https://www.junyizhu.com/",
     img: "junyi.jpg",
+    title: "Assistant Professor",
     bio: `Junyi is an Assistant Professor at University of Michigan, Electrical Engineering and Computer Science (EECS) Department.
     He received his Ph.D. in Computer Science from Massachusetts Institute of Technology and B.S. in Electrical & Computer Engineering from University of Washington.
     With his background in health sensing, fabrication and human-computer interaction, he is uniquely positioned to design and fabricate personal health and medical devices, build signal processing models for individual patients and their specific conditions, and deploy his devices in studies with doctors and patients.`,
