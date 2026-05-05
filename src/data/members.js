@@ -95,6 +95,12 @@ const undergrads = [
         img: "sophie.jpg",
         title: "Undergraduate Student",
         major: "EE"
+    },
+    {
+        name: "Yi (Yoyo) Rong",
+        img: "yoyo.png",
+        title: "Undergraduate Student",
+        major: "CE"
     }
 ];
 

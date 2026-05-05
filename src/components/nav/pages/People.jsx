@@ -50,11 +50,6 @@ function MemberCard({ person, showImage = true }) {
 export default function People() {
     return (
         <Container className="mt-4">
-            <img
-                className="group-photo"
-                src="/images/group_photos/sixlab-260429-1.jpg"
-                alt="SIX Lab group"
-            />
             {/* Members */}
             <h2 className="mb-3 custom-heading">Members</h2>
             <Row>
@@ -87,7 +82,11 @@ export default function People() {
                 ))}
             </ul>
 
-     
+            <img
+                className="group-photo"
+                src="/images/group_photos/sixlab-260429-1.jpg"
+                alt="SIX Lab group"
+            />
         </Container>
     );
 }
