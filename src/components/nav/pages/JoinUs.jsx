@@ -46,14 +46,14 @@ export default function JoinUs(props) {
                         <p className="mb-3">
                             <strong>Office:</strong>
                             <br/>
-                            EECS Building 3114
+                            EECS Building 3007
                             <br/>
                             1301 Beal Ave, Ann Arbor, MI 48109
                         </p>
-                        <p className="mb-0">
+                        {/* <p className="mb-0">
                             <strong>Email:</strong><br/>
                             <a href="mailto:zhujunyi@umich.edu" className="link">zhujunyi@umich.edu</a>
-                        </p>
+                        </p> */}
                     </Col>
                 </Row>
             </Card>
