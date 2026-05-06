@@ -47,13 +47,64 @@ function MemberCard({ person, showImage = true }) {
     );
 }
 
+function ProfCard({ faculty }) {
+    return (
+    <Card className="mb-3 px-2 py-3 border-0 flex-row align-items-center faculty-card">
+        <Row className="g-3 w-100">
+            <Col xs={12} sm={6} md={3}>
+            <Card.Img
+                src={`/members/${faculty.img}`}
+                alt={faculty.name}
+                // className="rounded"
+                style={{
+                borderRadius: "50%",
+                objectFit: "cover",
+                width: "230px",
+                aspectRatio: "1 / 1",
+                }}
+            />
+            </Col>
+            <Col xs={12} sm={6} md={9}>
+                <Card.Body>
+                    <Card.Title as="h5">
+                    <a
+                        href={faculty.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="faculty-link"
+                    >
+                        {faculty.name}
+                    </a>
+                    </Card.Title>
+                    <Card.Text
+                        style={{
+                            marginTop: "12px",
+                            fontSize: "17px",
+                            color: "#444",
+                            lineHeight: "1.5",
+                        }}
+                    >
+                        {faculty.bio}
+                        <br/><br/>
+                        <strong>Contact</strong>: {faculty.contact}
+                    </Card.Text>
+                </Card.Body>
+            </Col>
+        </Row>
+    </Card>
+    );
+}
+
 export default function People() {
     return (
         <Container className="mt-4">
-            {/* Members */}
+            {/* Faculty Section */}
+            <h2 className="mb-3 custom-heading">Principal Investigator</h2>
+            <ProfCard faculty={faculty} />
+
+            {/* Students */}
             <h2 className="mb-3 custom-heading">Members</h2>
             <Row>
-                <MemberCard person={faculty} />
                 {phdStudents.map((student, idx) => (
                 <MemberCard key={idx} person={student} />
                 ))}

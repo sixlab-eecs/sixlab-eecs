@@ -3,8 +3,8 @@ const faculty = {
     website: "https://www.junyizhu.com/",
     img: "junyi.jpg",
     title: "Assistant Professor",
-    bio: `Junyi is an Assistant Professor at University of Michigan, Electrical Engineering and Computer Science (EECS) Department.
-    He received his Ph.D. in Computer Science from Massachusetts Institute of Technology and B.S. in Electrical & Computer Engineering from University of Washington.`,
+    bio: "Junyi Zhu is an Assistant Professor at University of Michigan, Electrical Engineering and Computer Science (EECS) Department. He received his Ph.D. in Computer Science from Massachusetts Institute of Technology and B.S. in Electrical & Computer Engineering from University of Washington.",
+    contact: "zhujunyi [at] umich (dot) edu",
 };
 
 const phdStudents = [
