@@ -55,6 +55,12 @@ const masterStudents = [
         img: "rana.jpg",
         title: "Master Student",
         major: "ECE",
+    },
+    {
+        name: "Cherilyn Surianto",
+        img: "cherilyn.jpg",
+        title: "Master Student",
+        major: "ECE",
     }
 ];
 
@@ -98,6 +104,24 @@ const undergrads = [
     {
         name: "Yi (Yoyo) Rong",
         img: "yoyo.png",
+        title: "Undergraduate Student",
+        major: "CE"
+    },
+    {
+        name: "Kevin Qu",
+        img: "kevin.jpg",
+        title: "Undergraduate Student",
+        major: "EECS"
+    },
+    {
+        name: "Kai Kin Sou",
+        img: "kaikin.jpg",
+        title: "Undergraduate Student",
+        major: "CE"
+    },
+    {
+        name: "Linglong Qian",
+        img: "linglong.jpg",
         title: "Undergraduate Student",
         major: "CE"
     }
