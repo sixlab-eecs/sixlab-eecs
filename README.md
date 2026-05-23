@@ -17,6 +17,10 @@ To update the website:
     ```bash
    npm run deploy # build and push updates to GitHub Pages
    ```
+   for window, change 
+   "predeploy": "npm run build && echo sixlab-eecs.com > dist/CNAME && cp dist/index.html dist/404.html" to
+   "predeploy": "npm run build && node -e \"const fs = require('fs'); fs.writeFileSync('dist/CNAME', 'sixlab-eecs.com\\n'); fs.copyFileSync('dist/index.html', 'dist/404.html');\"",
+    
 
 ## TODO
 1. Fix mobile version (menu)
