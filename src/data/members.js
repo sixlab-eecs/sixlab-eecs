@@ -124,6 +124,18 @@ const undergrads = [
         img: "linglong.jpg",
         title: "Undergraduate Student",
         major: "CE"
+    },
+    {
+        name: "Joshua You Rong Chen",
+        img: "joshua.jpg",
+        title: "Undergraduate Student",
+        major: "CE"
+    },
+    {
+        name: "Yue (Coco) Zhan",
+        img: "yuezhan.jpg",
+        title: "Undergraduate Student",
+        major: "CE"
     }
 ];
 
