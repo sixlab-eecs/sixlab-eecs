@@ -125,9 +125,14 @@ export default function People() {
                 {alumni.map((student, idx) => (
                     <li key={idx}>
                         <span className="alumni-name">{student.name}</span>
-                        <span className="alumni-title">
-                            {student.title}
-                            {student.major ? ` • ${student.major}` : ""}
+                        <span className="alumni-details">
+                            <span className="alumni-title">
+                                {student.title}
+                                {student.major ? ` • ${student.major}` : ""}
+                            </span>
+                            {student.nowAt ? (
+                                <span className="alumni-now-at">Now: {student.nowAt}</span>
+                            ) : null}
                         </span>
                     </li>
                 ))}

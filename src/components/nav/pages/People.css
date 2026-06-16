@@ -74,10 +74,10 @@ a:hover {
 }
 
 .alumni-list li {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    align-items: baseline;
+    display: grid;
+    grid-template-columns: minmax(220px, max-content) minmax(0, 1fr);
+    column-gap: 16px;
+    align-items: start;
     padding: 8px 0;
 }
 
@@ -89,6 +89,30 @@ a:hover {
 .alumni-title {
     color: #666;
     font-size: 14px;
+}
+
+.alumni-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.alumni-now-at {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+}
+
+@media (max-width: 576px) {
+    .alumni-list {
+        padding-left: 0;
+    }
+
+    .alumni-list li {
+        grid-template-columns: 1fr;
+        row-gap: 2px;
+    }
 }
 
 .person-card .card-img-top {

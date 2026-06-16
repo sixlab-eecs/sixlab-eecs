@@ -45,12 +45,6 @@ const masterStudents = [
         major: "ECE",
     },
     {
-        name: "Zhiyu Jia",
-        img: "zhiyu.jpg",
-        title: "Master Student",
-        major: "ECE",
-    },
-    {
         name: "Rana Kamh",
         img: "rana.jpg",
         title: "Master Student",
@@ -66,38 +60,8 @@ const masterStudents = [
 
 const undergrads = [
     {
-        name: "Qianhui Zheng",
-        img: "qianhui.jpg",
-        title: "Undergraduate Student",
-        major: "CS"
-    },
-    {
-        name: "Lingxiao Yang",
-        img: "lingxiao.jpg",
-        title: "Undergraduate Student",
-        major: "CE"
-    },
-    {
-        name: "Yizhe (William) Shen",
-        img: "william.jpg",
-        title: "Undergraduate Student",
-        major: "CE"
-    },
-    {
-        name: "Felix Lu",
-        img: "felix.jpg",
-        title: "Undergraduate Student",
-        major: "CE"
-    },
-    {
         name: "Amanda Xia",
         img: "amanda.jpg",
-        title: "Undergraduate Student",
-        major: "EE"
-    },
-    {
-        name: "Sophie Yang",
-        img: "sophie.jpg",
         title: "Undergraduate Student",
         major: "EE"
     },
@@ -144,16 +108,60 @@ const visitings = [
 
 const alumni = [
     {
+        name: "Zhiyu Jia",
+        img: "zhiyu.jpg",
+        title: "Master Student",
+        major: "ECE",
+        nowAt: "PhD Student at UNC Chapel Hill",
+    },
+    {
+        name: "Qianhui Zheng",
+        img: "qianhui.jpg",
+        title: "Undergraduate Student",
+        major: "CS",
+        nowAt: "Master Student at CMU",
+    },
+    {
+        name: "Lingxiao Yang",
+        img: "lingxiao.jpg",
+        title: "Undergraduate Student",
+        major: "CE",
+        nowAt: "Master Student at UT Austin",
+    },
+    {
+        name: "Yizhe (William) Shen",
+        img: "william.jpg",
+        title: "Undergraduate Student",
+        major: "CE",
+        nowAt: "Master Student at CMU",
+    },
+    {
+        name: "Felix Lu",
+        img: "felix.jpg",
+        title: "Undergraduate Student",
+        major: "CE",
+        nowAt: "Master Student at CMU",
+    },
+    {
+        name: "Sophie Yang",
+        img: "sophie.jpg",
+        title: "Undergraduate Student",
+        major: "EE",
+        nowAt: "",
+    },
+    {
         name: "Daniel Chen",
         img: "daniel.jpg",
         title: "Undergraduate Student",
         major: "EE",
+        nowAt: "",
     },
     {
         name: "Alan Murillo-soto",
         img: "alan.jpg",
         title: "Visiting Student",
         major: "EE",
+        nowAt: "",
     },
 ]
 
