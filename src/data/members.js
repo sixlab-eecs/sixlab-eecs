@@ -35,25 +35,31 @@ const phdStudents = [
         title: "PhD Student",
         website: "https://guokaiyi-zzu.github.io/KaiyiGuo7.github.io/",
     },
+    {
+        name: "Mingzhuo Ma",
+        img: "mingzhuo.jpg",
+        title: "PhD Student",
+        website: "https://www.linkedin.com/in/mingzhuoma/",
+    }
 ];
 
 const masterStudents = [
     {
         name: "Shufeng Yin",
         img: "shufeng.jpg",
-        title: "Master Student",
+        title: "MS Student",
         major: "ECE",
     },
     {
         name: "Rana Kamh",
         img: "rana.jpg",
-        title: "Master Student",
+        title: "MS Student",
         major: "ECE",
     },
     {
         name: "Cherilyn Surianto",
         img: "cherilyn.jpg",
-        title: "Master Student",
+        title: "MS Student",
         major: "ECE",
     }
 ];
@@ -62,43 +68,43 @@ const undergrads = [
     {
         name: "Amanda Xia",
         img: "amanda.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "EE"
     },
     {
         name: "Yi (Yoyo) Rong",
         img: "yoyo.png",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE"
     },
     {
         name: "Kevin Qu",
         img: "kevin.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "EECS"
     },
     {
         name: "Kai Kin Sou",
         img: "kaikin.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE"
     },
     {
         name: "Linglong Qian",
         img: "linglong.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE"
     },
     {
         name: "Joshua You Rong Chen",
         img: "joshua.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE"
     },
     {
         name: "Yue (Coco) Zhan",
         img: "yuezhan.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE"
     }
 ];
@@ -110,49 +116,49 @@ const alumni = [
     {
         name: "Zhiyu Jia",
         img: "zhiyu.jpg",
-        title: "Master Student",
+        title: "MS Student",
         major: "ECE",
         nowAt: "PhD Student at UNC Chapel Hill",
     },
     {
         name: "Qianhui Zheng",
         img: "qianhui.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CS",
-        nowAt: "Master Student at CMU",
+        nowAt: "MS Student at CMU",
     },
     {
         name: "Lingxiao Yang",
         img: "lingxiao.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE",
-        nowAt: "Master Student at UT Austin",
+        nowAt: "MS Student at UT Austin",
     },
     {
         name: "Yizhe (William) Shen",
         img: "william.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE",
-        nowAt: "Master Student at CMU",
+        nowAt: "MS Student at CMU",
     },
     {
         name: "Felix Lu",
         img: "felix.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "CE",
-        nowAt: "Master Student at CMU",
+        nowAt: "MS Student at CMU",
     },
     {
         name: "Sophie Yang",
         img: "sophie.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "EE",
         nowAt: "",
     },
     {
         name: "Daniel Chen",
         img: "daniel.jpg",
-        title: "Undergraduate Student",
+        title: "Undergraduate",
         major: "EE",
         nowAt: "",
     },
