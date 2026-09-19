@@ -32,6 +32,23 @@
     color: #222;
 }
 
+.news-entry {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35em;
+}
+
+.news-date {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.news-description {
+    min-width: 0;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
 .custom-ul a {
     color: var(--primary-color);
     text-decoration: none;

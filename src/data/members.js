@@ -51,14 +51,14 @@ const masterStudents = [
         major: "ECE",
     },
     {
-        name: "Rana Kamh",
-        img: "rana.jpg",
+        name: "Cherilyn Surianto",
+        img: "cherilyn.jpg",
         title: "MS Student",
         major: "ECE",
     },
     {
-        name: "Cherilyn Surianto",
-        img: "cherilyn.jpg",
+        name: "Luxiao Yu",
+        img: "luxiao.jpg",
         title: "MS Student",
         major: "ECE",
     }
@@ -106,13 +106,31 @@ const undergrads = [
         img: "yuezhan.jpg",
         title: "Undergraduate",
         major: "CE"
+    },
+    {
+        name: "Bingyuan Zhang",
+        img: "bingyuan.jpg",
+        title: "Undergraduate",
+        major: "ECE"
     }
 ];
 
 const visitings = [
+    {
+        name: "Xiang Chang",
+        img: "xiang.jpg",
+        title: "Visiting Student",
+    }
 ];
 
 const alumni = [
+    {
+        name: "Rana Kamh",
+        img: "rana.jpg",
+        title: "MS Student",
+        major: "ECE",
+        nowAt: "",
+    },
     {
         name: "Zhiyu Jia",
         img: "zhiyu.jpg",

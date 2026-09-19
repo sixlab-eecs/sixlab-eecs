@@ -1,6 +1,24 @@
 
 const publications = [
     {
+        title: "Bifur-circuits: Interactive and Modular Metamaterial Building Blocks Via Bifurcated Geometries",
+        authors: "Marwa AlAlawi, Regina Zheng, Abdullah Negm, Jiaji Li, Emma Li, Yasuaki Kakehi, Yoshihiro Kawahara, Junyi Zhu, Ticha Sethapakdi*, Stefanie Mueller*. (*co-last authors)",
+        venue: "In Proceedings of ACM UIST 2026",
+        thumbnail: "uist26_bifur_circuits.png",
+        links: {
+            PDF: "/pdfs/2026-UIST-Bifur-circuits.pdf",
+        },
+    },
+    {
+        title: "WeeCare: Towards Handheld Bladder Fullness Sensing with a Conformable Pad",
+        authors: "Zhikai Qin, Siqi Zhang, Shuyi Zeng, Xiyuxing Zhang, Junyi Zhu, Justin Chan",
+        venue: "In Proceedings of ACM ISWC 2026",
+        thumbnail: "iswc26_weecare.png",
+        links: {
+            PDF: "/pdfs/2026-ISWC-WeeCare.pdf",
+        },
+    },
+    {
         title: "MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR",
         authors: "Tianyu Xu, Sieun Kim, Qianhui Zheng, Ruoyu Xu, Tejasvi Ravi, Anuva Kulkarni, Katrina Passarella-Ward, Junyi Zhu*, Adarsh Kowdle*. (*co-last authors)",
         venue: "In Proceedings of ACM CHI 2026",
@@ -19,6 +37,16 @@ const publications = [
             // PDF(small): "/pdfs/chi26_realtwin.pdf",
             PDF: "https://dl.acm.org/doi/pdf/10.1145/3772318.3790590",
         }
+    },
+    {
+        title: "WiReSens Toolkit: An Open-source Platform towards Accessible Wireless Tactile Sensing",
+        authors: "Devin Murphy, Junyi Zhu, Akshay Gadre, Antonio Torralba, Paul Pu Liang, Wojciech Matusik, Yiyue Luo",
+        venue: "In Proceedings of ACM TEI 2026",
+        thumbnail: "tei26_wiresens.png",
+        links: {
+            DOI: "https://doi.org/10.1145/3731459.3773323",
+            PDF: "/pdfs/2026-TEI-WiReSens-Toolkit.pdf",
+        },
     },
     {
         title: "BandEI: A Flexible Electrical Impedance Sensing Bandage for Deep Muscles and Tendons",
@@ -54,19 +82,9 @@ const publications = [
         },
     },
     {
-        title: "WiReSens Toolkit: An Open-source Platform towards Accessible Wireless Tactile Sensing",
-        authors: "Devin Murphy, Junyi Zhu, Paul Pu Liang, Wojciech Matusik, and Yiyue Luo.",
-        venue: "In arXiv preprint arXiv:2412.00247 (2024)",
-        thumbnail: "arXiv24_wiresens.png",
-        links: {
-            DOI: "https://arxiv.org/abs/2412.00247",
-            PDF: "https://arxiv.org/pdf/2412.00247",
-        },
-    },
-    {
         title: "PortaChrome: A Portable Contact Light Source for Integrated Re-Programmable Multi-Color Textures",
         authors: "Yunyi Zhu, Cedric Honnet, Yixiao Kang, Junyi Zhu, Angelina J Zheng, Kyle Heinz, Grace Tang, Luca Musk, Michael Wessely and Stefanie Mueller.",
-        venue: "In Proceedings of UIST 2024",
+        venue: "In Proceedings of ACM UIST 2024",
         thumbnail: "uist24_portachrome.png",
         links: {
             DOI: "https://dl.acm.org/doi/10.1145/3654777.3676458",
@@ -77,7 +95,7 @@ const publications = [
     {
         title: "Liquids Identification and Manipulation via Digitally Fabricated Impedance Sensors",
         authors: "Junyi Zhu*, Young Joong Lee*, Yiyue Luo*, Tianyu Xu, Chao Liu, Daniela Rus, Stefanie Mueller and Wojciech Matusik.",
-        venue: "In IEEE ICRA 2024",
+        venue: "In Proceedings of IEEE ICRA 2024",
         thumbnail: "icra24_liquids_ident.png",
         links: {
             DOI: "https://ieeexplore.ieee.org/document/10610518",
@@ -87,7 +105,7 @@ const publications = [
     {
         title: "EITPose: Wearable and Practical Electrical Impedance Tomography for Continuous Hand Pose Estimation",
         authors: "Alexander Kyu*, Hongyu Mao*, Junyi Zhu, Mayank Goel and Karan Ahuja.",
-        venue: "In Proceedings of CHI 2024",
+        venue: "In Proceedings of ACM CHI 2024",
         thumbnail: "chi24_eitpose.png",
         links: {
             DOI: "https://dl.acm.org/doi/10.1145/3613904.3642663",
@@ -99,7 +117,7 @@ const publications = [
     {
         title: "MagKnitic: Machine-knitted Passive and Interactive Haptic Textiles with Integrated Binary Sensing",
         authors: "Yiyue Luo, Junyi Zhu, Kui Wu, Cedric Honnet, Stefanie Mueller and Wojciech Matusik.",
-        venue: "In Proceedings of UIST 2023",
+        venue: "In Proceedings of ACM UIST 2023",
         thumbnail: "uist23_magknitic.png",
         links: {
             DOI: "https://dl.acm.org/doi/10.1145/3586183.3606765",
@@ -110,7 +128,7 @@ const publications = [
     {
         title: "FlexBoard: A Flexible Breadboard for Interaction Prototyping on Curved and Deformable Surfaces ",
         authors: "Donghyeon Ko, Yoonji Kim, Junyi Zhu, Michael Wessely and Stefanie Mueller.",
-        venue: "In Proceedings of CHI 2023",
+        venue: "In Proceedings of ACM CHI 2023",
         thumbnail: "chi23_flexboard.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3544548.3580748",
@@ -122,7 +140,7 @@ const publications = [
     {
         title: "MechSense: A Design and Fabrication Pipeline for Integrating Rotary Encoders into 3D Printed Mechanisms",
         authors: "Marwa AlAlawi, Noah Pacik-Nelson, Junyi Zhu, Ben Greenspan, Andrew Doan, Brandon M Wong, Benjamin Owen-Block, Shanti Mickens, Wilhelm Schoeman, Michael Wessely, Andreea Danielescu and Stefanie Mueller.",
-        venue: "In Proceedings of CHI 2023",
+        venue: "In Proceedings of ACM CHI 2023",
         thumbnail: "chi23_mechsense.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3544548.3581361",
@@ -134,7 +152,7 @@ const publications = [
     {
         title: "MuscleRehab: Improving Unsupervised Physical Rehabilitation by Monitoring and Visualizing Muscle Engagement",
         authors: "Junyi Zhu, Yuxuan Lei, Aashini Shah, Gila R. Schein, Hamid Ghaednia, Joseph H. Schwab, Casper Harteveld and Stefanie Mueller",
-        venue: "In Proceedings of UIST 2022",
+        venue: "In Proceedings of ACM UIST 2022",
         thumbnail: "uist22_musclerehab.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3526113.3545705",
@@ -146,7 +164,7 @@ const publications = [
     {
         title: "SensorViz: Visualizing Sensor Data Across Different Stages of Prototyping Interactive Objects",
         authors: "Yoonji Kim, Junyi Zhu, Mihir Trivedi, Dishita G. Turakhia, Ngai Hang Wu, Donghyeon Ko, Michael Wessely, Stefanie Mueller.",
-        venue: "In Proceedings of DIS 2022",
+        venue: "In Proceedings of ACM DIS 2022",
         thumbnail: "dis22_sensorviz.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3532106.3533481",
@@ -158,7 +176,7 @@ const publications = [
     {
         title: "EIT-kit: An Electrical Impedance Tomography Toolkit for Health and Motion Sensing",
         authors: "Junyi Zhu, Jackson C. Snowden, Joshua Verdejo, Emily Chen, Paul Zhang, Hamid Ghaednia, Joseph H. Schwab, Stefanie Mueller.",
-        venue: "In Proceedings of UIST 2021",
+        venue: "In Proceedings of ACM UIST 2021",
         thumbnail: "uist21_eitkit.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3472749.3474758",
@@ -171,7 +189,7 @@ const publications = [
     {
         title: "MorphSensor: A 3D Electronic Design Tool for Reforming Sensor Modules",
         authors: "Junyi Zhu, Yunyi Zhu, Jiaming Cui, Leon Cheng, Jackson C Snowden, Mark Chounlakone, Michael Wessely, Stefanie Mueller.",
-        venue: "In Proceedings of UIST 2020",
+        venue: "In Proceedings of ACM UIST 2020",
         thumbnail: "uist20_morphsensor.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3379337.3415898",
@@ -184,7 +202,7 @@ const publications = [
     {
         title: "CurveBoards: Integrating Breadboards into Physical Objects to Prototype Function in the Context of Form",
         authors: "Junyi Zhu, Yunyi Zhu, Jiaming Cui, Leon Cheng, Jackson C Snowden, Mark Chounlakone, Michael Wessely, Stefanie Mueller.",
-        venue: "In Proceedings of CHI 2020",
+        venue: "In Proceedings of ACM CHI 2020",
         thumbnail: "chi20_curveboards.png",
         links: {
         DOI: "https://dl.acm.org/doi/abs/10.1145/3313831.3376617",
@@ -196,7 +214,7 @@ const publications = [
     {
         title: "Sequential Support: 3D Printing Dissolvable Support Material for Time-Dependent Mechanisms",
         authors: "Martin Nisser, Junyi Zhu, Tianye Chen, Katarina Bulovic, Parinya Punpongsanon, Stefanie Mueller.",
-        venue: "In Proceedings of TEI 2019",
+        venue: "In Proceedings of ACM TEI 2019",
         thumbnail: "tei19_sequentialsupport.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3294109.3295630",
@@ -208,7 +226,7 @@ const publications = [
     {
         title: "Seismo: Blood Pressure Monitoring using Built-in Smartphone Accelerometer and Camera",
         authors: "Edward Wang, Junyi Zhu, Mohit Jain, Tien-Jui Lee, Elliot Saba, Lama Nachman, Shwetak N. Patel.",
-        venue: "In Proceedings of CHI 2018",
+        venue: "In Proceedings of ACM CHI 2018",
         thumbnail: "chi18_seismo.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3173574.3173999",
@@ -220,7 +238,7 @@ const publications = [
     {
         title: "Noninvasive hemoglobin measurement using unmodified smartphone camera and white flash",
         authors: "Edward Wang, William Li, Junyi Zhu, Rajneil Rana, Shwetak N. Patel.",
-        venue: "In Proceedings of 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2017)",
+        venue: "In Proceedings of IEEE EMBC 2017",
         thumbnail: "embc17_noninvasive.png",
         links: {
         DOI: "https://ieeexplore.ieee.org/document/8037323/",
@@ -230,7 +248,7 @@ const publications = [
     {
         title: "HemaApp IR: noninvasive hemoglobin measurement using unmodified smartphone cameras and built-in LEDs",
         authors: "Edward Wang, Junyi Zhu, William Li, Rajneil Rana, Shwetak N. Patel.",
-        venue: "In Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers (UbiComp '17)",
+        venue: "In Proceedings of ACM UbiComp/ISWC 2017",
         thumbnail: "ubicomp17_hemaapp.png",
         links: {
         DOI: "https://dl.acm.org/doi/10.1145/3123024.3123180",
@@ -238,4 +256,26 @@ const publications = [
         },
     },
 ];
+const posters = [
+    {
+        title: "CallEEG: Towards Cognitive Engagement-Aware Video-Mediated Communication for Copresence",
+        authors: "Sieun Kim, Zhiyu Jia, Felix Lu, Yiyue Luo, Junyi Zhu",
+        venue: "In Proceedings of ACM UIST Adjunct 2026 · Poster",
+        thumbnail: "uist26_calleeg.png",
+        links: {
+            PDF: "/pdfs/uistadjunct26-72.pdf",
+        },
+    },
+    {
+        title: "Interactive Demonstration of Active Bed-Frame Vibration Sensing for Respiratory Airflow Monitoring",
+        authors: "Jiale Zhang, Shufeng Yin, Lingxiao Yang, Daniel Vena, Yiyue Luo, Pei Zhang, Junyi Zhu",
+        venue: "In Proceedings of ACM UIST Adjunct 2026 · Demo",
+        thumbnail: "uist26_airflow_demo.png",
+        links: {
+            PDF: "/pdfs/uistadjunct26-197.pdf",
+        },
+    },
+];
+
+export { posters };
 export default publications;

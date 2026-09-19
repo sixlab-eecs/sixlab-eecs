@@ -111,10 +111,10 @@ export default function People() {
                 {masterStudents.map((student, idx) => (
                 <MemberCard key={idx} person={student} />
                 ))}
-                {undergrads.map((student, idx) => (
+                {visitings.map((student, idx) => (
                 <MemberCard key={idx} person={student} />
                 ))}
-                {visitings.map((student, idx) => (
+                {undergrads.map((student, idx) => (
                 <MemberCard key={idx} person={student} />
                 ))}
             </Row>

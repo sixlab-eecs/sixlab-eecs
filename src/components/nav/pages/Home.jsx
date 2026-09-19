@@ -86,7 +86,10 @@ export default function Home(props) {
             <ul className="custom-ul mb-4">
                 {visibleNews.map((item, idx) => (
                     <li key={idx} className="mb-1">
-                        {item.time} {item.description || "(Details coming soon)"}
+                        <div className="news-entry">
+                        <span className="news-date">{item.time}</span>
+                        <span className="news-description">
+                        {item.description || "(Details coming soon)"}
                         {item.link && (
                         <>
                             {" "}
@@ -99,6 +102,8 @@ export default function Home(props) {
                             ]
                         </>
                         )}
+                        </span>
+                        </div>
                     </li>
                 ))}
             </ul>

@@ -1,6 +1,11 @@
 
 const news = [
     {
+        time: "[09/2026]",
+        description: "We’re excited to share that our paper, demo, and poster have been accepted to UIST 2027!",
+        link: "",
+    },
+    {
         time: "[01/2026]",
         description: "We are excited to organize a workshop at CHI 2026. Join us in Barcelona, Spain!",
         link: "https://everydaywearableforhealth.github.io/"
