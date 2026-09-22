@@ -9,7 +9,8 @@
     min-width: 0;
 }
 
-.publication-card.paper-card {
+.publication-card.paper-card,
+.publication-card.poster-card {
     display: grid;
     gap: 16px;
     align-items: start;
@@ -22,26 +23,9 @@
     border: 1px solid #ccc;
 }
 
-.poster-card .publication-image-link {
-    margin-bottom: 12px;
-}
-
-.poster-card .publication-image {
-    height: auto;
-}
-
-.poster-card .pub-title,
-.poster-card .pub-title a {
-    font-size: 16px;
-    line-height: 1.4;
-}
-
-.poster-card .pub-authors {
-    font-size: 14px;
-}
-
 @media (min-width: 768px) {
-    .publication-card.paper-card {
+    .publication-card.paper-card,
+    .publication-card.poster-card {
         grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
     }
 }
@@ -49,6 +33,25 @@
 @media (min-width: 992px) {
     .publications-layout {
         grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
+    }
+
+    .publication-card.poster-card {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .poster-card .publication-image {
+        height: auto;
+    }
+
+    .poster-card .pub-title,
+    .poster-card .pub-title a {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .poster-card .pub-authors {
+        font-size: 14px;
     }
 }
 

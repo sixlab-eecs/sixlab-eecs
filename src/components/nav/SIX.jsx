@@ -12,7 +12,7 @@ export default function SIX() {
                     <Row className="justify-content-center align-items-center text-center">
                         <Col xs="auto">
                             <Image
-                                src="\images\logo-eecs-1.svg"
+                                src="/images/logo-eecs-1.svg"
                                 alt="EECS Logo"
                                 height={40}
                                 className="me-2"

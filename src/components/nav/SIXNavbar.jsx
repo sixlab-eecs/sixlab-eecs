@@ -18,7 +18,7 @@ export default function SIXNavbar() {
             <Container>
                 <Navbar.Brand as={NavLink} to="/" className="logo-wrapper">
                     <img 
-                        src="images/sixlab_logo_white.png" 
+                        src="/images/sixlab_logo_white.png"
                         alt="Lab Logo" 
                         className="sixlab-logo"
                         // width="90"
