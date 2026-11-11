@@ -51,12 +51,6 @@ const masterStudents = [
         major: "ECE",
     },
     {
-        name: "Cherilyn Surianto",
-        img: "cherilyn.jpg",
-        title: "MS Student",
-        major: "ECE",
-    },
-    {
         name: "Luxiao Yu",
         img: "luxiao.jpg",
         title: "MS Student",
@@ -130,6 +124,13 @@ const visitings = [
 ];
 
 const alumni = [
+    {
+        name: "Cherilyn Surianto",
+        img: "cherilyn.jpg",
+        title: "MS Student",
+        major: "ECE",
+        nowAt: "",
+    },
     {
         name: "Joshua You Rong Chen",
         img: "joshua.jpg",
