@@ -112,6 +112,12 @@ const undergrads = [
         img: "bingyuan.jpg",
         title: "Undergraduate",
         major: "ECE"
+    },
+    {
+        name: "Heshun Jiang",
+        img: "heshun.png",
+        title: "Undergraduate",
+        major: "CE"
     }
 ];
 

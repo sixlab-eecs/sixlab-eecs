@@ -1,7 +1,12 @@
 
 const news = [
     {
-        time: "[09/2026]",
+        time: "[08/2026]",
+        description: "Two PhD students, Mingzhuo and Kaiyi, joined the SIX Lab!",
+        link: "",
+    },
+    {
+        time: "[07/2026]",
         description: "We’re excited to share that our paper, demo, and poster have been accepted to UIST 2027!",
         link: "",
     },
