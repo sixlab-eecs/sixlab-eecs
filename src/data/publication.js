@@ -1,6 +1,15 @@
 
 const publications = [
     {
+        title: "SleepVibe: Sleep Stage Monitoring Through Active Bed-Frame Vibration",
+        authors: "Jiale Zhang, Shufeng Yin, Lingxiao Yang, Jisu Yim, Kaiyi Guo, Yuxuan Miao, Daniel Vena, Pei Zhang, Yiyue Luo, Junyi Zhu",
+        venue: "ACM IMWUT 2026 (To Appear)",
+        thumbnail: "imwut26_SleepVibe.jpg",
+        links: {
+            PDF: "/pdfs/2027-IMWUT-SleepVibe.pdf",
+        },
+    },
+    {
         title: "Bifur-circuits: Interactive and Modular Metamaterial Building Blocks Via Bifurcated Geometries",
         authors: "Marwa AlAlawi, Regina Zheng, Abdullah Negm, Jiaji Li, Emma Li, Yasuaki Kakehi, Yoshihiro Kawahara, Junyi Zhu, Ticha Sethapakdi*, Stefanie Mueller*. (*co-last authors)",
         venue: "In Proceedings of ACM UIST 2026",
