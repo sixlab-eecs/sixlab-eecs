@@ -136,7 +136,7 @@ const alumni = [
         img: "rana.jpg",
         title: "MS Student",
         major: "ECE",
-        nowAt: "",
+        nowAt: "Solutions Engineer at Keysight Technologies",
     },
     {
         name: "Zhiyu Jia",
